@@ -13,3 +13,5 @@ meetings are determined on an as-needed basis and may be technical or management
 of nature.
 
 Current meeting schedule: Wednesdays 23:30 UTC
+
+Recordings of past meetings are available on the [Express Youtube Channel](https://www.youtube.com/channel/UCYjxjAeH6TRik9Iwy5nXw7g/videos).
