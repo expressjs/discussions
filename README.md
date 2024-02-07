@@ -7,7 +7,7 @@ This repository is used for generalized Express.js discussions.
 
 ## Express.js TC meetings
 
-The Express.js Technical Committe (TC) meets online every other week, providing
+The Express.js Technical Committee (TC) meets online every other week, providing
 a live stream of the discussion and a recording of past meetings. Topics for the
 meetings are determined on an as-needed basis and may be technical or management
 of nature.
