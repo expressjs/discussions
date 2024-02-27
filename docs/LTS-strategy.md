@@ -32,7 +32,7 @@
 
 ### Active branches
 
-* Several semver major branches can be maintained at the same time, in case there is a significant userbase for older semver major releases.
+* Several semver major branches will be maintained at the same time while we have overlapping supported versions
 * No features are backported to older semver major branches
 * Critical bugfixes may be backported to older semver major branches
 * High-impact security fixes are very likely to be backported to older semver major branches
