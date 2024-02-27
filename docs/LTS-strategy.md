@@ -17,7 +17,7 @@
 
 * Avoid blocking Node.js core from making progress and removing deprecated parts of the codebase
 * Avoid getting outdated bug reports or security issues
-* Keep options for adopting newer patterns and tooling open
+* Keep options open for adopting newer patterns and tooling
 
 ### Rationale behind conservative policy of breaking changes
 
