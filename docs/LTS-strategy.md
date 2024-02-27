@@ -27,7 +27,7 @@
 ### Guidelines for dropping support of Node.js versions
 
 * In order to smoothen the experience of users updating to a new semver major Express version, Express should always support at least one even numbered Node.js version above the current lowest supported one before the drop can be considered. For example, if the lowest supported version is 20, Express support for Node 20 cannot be dropped until Express supports at least Node 22. This ensures that Express updates can be done independently from the Node.js version update.
-* Version support removal must come with clear benefits for one of the three - Express users, Express maintainers or the Node.js core project. Version support is not dropped on a merely time-based basis.
+* Version support removal must come with clear benefits for one of the three - Express users, Express maintainers, or the Node.js core project. Version support is not dropped on a merely time-based basis, or otherwise arbitrarily.
 * Any discontinuation of a Node.js version support is always a semver major release.
 
 ### Active branches
