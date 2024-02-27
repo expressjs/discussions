@@ -34,5 +34,5 @@
 
 * Several semver major branches will be maintained at the same time while we have overlapping supported versions
 * No features are backported to older semver major branches
-* Critical bugfixes may be backported to older semver major branches
+* Critical bugfixes will be backported to older supported semver major branches
 * High-impact security fixes are very likely to be backported to older semver major branches
