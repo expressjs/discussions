@@ -11,7 +11,7 @@
 
 * Only support the active LTS releases of Node.js
 * Release semver major versions on a regular cadence just for the sake of dropping Node.js version support when there are no clear benefits for doing so, and there are no other breaking changes planned for the release.
-* Support an extended set of Node.js versions to the detriment of all other factors. We aim to maintain a healthy balance between backwards compatibility and toolchain modernization
+* Prioritize "support older Node.js versions" over other factors. We aim to maintain a healthy balance between backwards compatibility and toolchain modernization
 
 ### Rationale behind dropping support for old Node.js versions
 
