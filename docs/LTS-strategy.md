@@ -10,7 +10,7 @@
 ## Non-Goals
 
 * Only support the active LTS releases of Node.js
-* Provide timed cadence of Node.js version support dismissal
+* Release semver major versions on a regular cadence just for the sake of dropping Node.js version support when there are no clear benefits for doing so, and there are no other breaking changes planned for the release.
 * Support an extended set of Node.js versions to the detriment of all other factors. We aim to maintain a healthy balance between backwards compatibility and toolchain modernization
 
 ### Rationale behind dropping support for old Node.js versions
@@ -36,3 +36,7 @@
 * No features are backported to older semver major branches
 * Critical bugfixes will be backported to older supported semver major branches
 * Security fixes will be backported to older supported semver major branches
+
+### Release calendar
+
+* There is a regular cadence of semver major releases (details TBD). However, if no breaking changes were introduced between the last semver major and the scheduled date of the release of the new one, the new semver major release is skipped.
