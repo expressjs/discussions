@@ -2,16 +2,16 @@
 
 ## Goals
 
-* Maintain strict Node.js version support within a single Express major release.
-* Provide good ergonomics and developer experience for Express maintainers
+* Maintain strict Node.js version support within a single Express major release
 * Provide good experience for users who want to keep their Express projects that up-to-date
 * Avoid stagnation and blocking innovation that is good for the end users
+* Ensure good ergonomics and developer experience for Express maintainers
 
 ## Non-Goals
 
 * Only support the active LTS releases of Node.js
-* Support the widest possible set of Node.js versions. We aim to maintain a healthy balance between backwards compatibility and toolchain modernization.
 * Provide timed cadence of Node.js version support dismissal
+* Support an extended set of Node.js versions to the detriment of all other factors. We aim to maintain a healthy balance between backwards compatibility and toolchain modernization
 
 ### Rationale behind dropping support for old Node.js versions
 
