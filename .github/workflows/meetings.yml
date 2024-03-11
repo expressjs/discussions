@@ -1,0 +1,26 @@
+name: Schedule Meetings
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 1'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Technical Committee
+        uses: 'pkgjs/meet@v0'
+        with:
+          issueTitle: '<%= date.toFormat("yyyy-MM-dd") %> Express TC Meeting'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          orgs: expressjs,pillarjs,jshttp
+          agendaLabel: 'top priority'
+          meetingLabels: 'meeting'
+          # We alternate between two time slots:
+          # 1. Starting on 2024-03-04 at 9pm UTC (2024-03-04T21:00:00.0Z) with a period of 4 weeks (P4W)
+          # 2. Starting on 2024-03-20 at 9pm UTC (2024-03-20T21:00:00.0Z) with a period of 4 weeks (P4W)
+          schedules: '2024-03-04T21:00:00.0Z/P4W,2024-03-20T21:00:00.0Z/P4W'
+          createWithin: 'P1W'
+          issueTemplate: 'meeting-tc.md'
