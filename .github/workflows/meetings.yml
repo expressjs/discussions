@@ -7,7 +7,7 @@ on:
   schedule:
     - cron: '0 0 * * 1'
 jobs:
-  build:
+  meeting:
     runs-on: ubuntu-latest
     steps:
       - name: Technical Committee
@@ -19,8 +19,8 @@ jobs:
           agendaLabel: 'top priority'
           meetingLabels: 'meeting'
           # We alternate between two time slots:
-          # 1. Starting on 2024-03-04 at 9pm UTC (2024-03-04T21:00:00.0Z) with a period of 4 weeks (P4W)
-          # 2. Starting on 2024-03-20 at 9pm UTC (2024-03-20T21:00:00.0Z) with a period of 4 weeks (P4W)
-          schedules: '2024-03-04T21:00:00.0Z/P4W,2024-03-20T21:00:00.0Z/P4W'
+          # 1. Starting on 2024-03-04 at 9pm UTC (2024-03-04T21:00:00.0Z) with a period of 2 weeks (P2W)
+          # 2. Starting on 2024-03-20 at 9pm UTC (2024-03-20T21:00:00.0Z) with a period of 2 weeks (P2W)
+          schedules: '2024-03-04T21:00:00.0Z/P2W,2024-03-20T21:00:00.0Z/P2W'
           createWithin: 'P1W'
           issueTemplate: 'meeting-tc.md'
