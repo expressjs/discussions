@@ -31,7 +31,11 @@ Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<
 
 ## Invited
 
+This meeting is open for anyone who wants to attend. Reminder to follow our [Code of Conduct](https://github.com/expressjs/express/blob/master/Code-Of-Conduct.md).
+
 @expressjs/express-tc
+@expressjs/triagers
+@expressjs/security-wg
 
 ## Links
 
@@ -39,5 +43,5 @@ Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<
 
 ### Joining the meeting
 
-* link for participants: TBD
-* For those who just want to watch: TBD
+* link for participants: https://zoom-lfx.platform.linuxfoundation.org/meeting/95266714809?password=f37cff1b-cb3a-4a21-9425-210e4714c72e
+* For those who just want to watch: https://www.youtube.com/@expressjs-official
