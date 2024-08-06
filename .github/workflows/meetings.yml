@@ -19,8 +19,8 @@ jobs:
           agendaLabel: 'tc agenda'
           meetingLabels: 'meeting'
           # https://github.com/expressjs/discussions/issues/195#issuecomment-1973732769
-          # Starting on 2024-03-18 at 9pm UTC (2024-03-18T21:00:00.0Z) with a period of 2 weeks (P2W)
-          schedules: '2024-03-18T21:00:00.0Z/P2W'
+          # Starting on 2024-03-18 at 8pm UTC (2024-03-18T21:00:00.0Z) with a period of 2 weeks (P2W)
+          schedules: '2024-03-18T20:00:00.0Z/P2W'
           createWithin: 'P1W'
           issueTemplate: 'meeting.md'
 
@@ -34,7 +34,7 @@ jobs:
           meetingLabels: 'meeting'
           # Converting the second time slot to a "working session"
           # https://github.com/expressjs/discussions/issues/195#issuecomment-1973732769
-          # Starting on 2024-03-27 at 9pm UTC (2024-03-27T21:00:00.0Z) with a period of 2 weeks (P2W)
-          schedules: '2024-03-27T21:00:00.0Z/P2W'
+          # Starting on 2024-03-27 at 8pm UTC (2024-03-27T21:00:00.0Z) with a period of 2 weeks (P2W)
+          schedules: '2024-03-27T20:00:00.0Z/P2W'
           createWithin: 'P1W'
           issueTemplate: 'meeting.md'
