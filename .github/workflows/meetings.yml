@@ -22,7 +22,7 @@ jobs:
           # Starting on 2024-03-18 at 8pm UTC (2024-03-18T21:00:00.0Z) with a period of 2 weeks (P2W)
           schedules: '2024-03-18T20:00:00.0Z/P2W'
           createWithin: 'P1W'
-          issueTemplate: 'meeting.md'
+          issueTemplate: 'meeting-tc.md'
 
       - name: Working Session
         uses: 'pkgjs/meet@v0'
@@ -37,4 +37,4 @@ jobs:
           # Starting on 2024-03-27 at 8pm UTC (2024-03-27T21:00:00.0Z) with a period of 2 weeks (P2W)
           schedules: '2024-03-27T20:00:00.0Z/P2W'
           createWithin: 'P1W'
-          issueTemplate: 'meeting.md'
+          issueTemplate: 'meeting-work-session.md'
