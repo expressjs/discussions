@@ -47,8 +47,8 @@ jobs:
             agendaLabel: 'triage-meeting'
             meetingLabels: 'meeting'
             # https://github.com/expressjs/discussions/issues/276#issuecomment-2399741373
-            # Starting on 2024-10-27 at 7pm UTC (2024-10-27T19:00:00.0Z) with a period of 4 weeks (P4W)
-            schedules: '2024-10-27T19:00:00.0Z/P4W'
+            # Starting on 2024-10-28 at 7pm UTC (2024-10-28T19:00:00.0Z) with a period of 4 weeks (P4W)
+            schedules: '2024-10-14T19:00:00.0Z/P4W'
             createWithin: 'P1W'
             issueTemplate: 'meeting-triage.md'
       - name: Security Working Session
