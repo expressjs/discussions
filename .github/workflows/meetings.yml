@@ -38,3 +38,16 @@ jobs:
           schedules: '2024-03-27T20:00:00.0Z/P2W'
           createWithin: 'P1W'
           issueTemplate: 'meeting.md'
+      - name: Triage Working Session
+        uses: 'pkgjs/meet@61042a30f295179c24673776877615fa12a6c0bc' # v0.0.19'
+        with:
+            issueTitle: '<%= date.toFormat("yyyy-MM-dd") %> Express Triage Session'
+            token: ${{ secrets.GITHUB_TOKEN }}
+            orgs: expressjs,pillarjs,jshttp
+            agendaLabel: 'triage-meeting'
+            meetingLabels: 'meeting'
+            # https://github.com/expressjs/discussions/issues/276#issuecomment-2399741373
+            # Starting on 2024-10-28 at 7pm UTC (2024-10-28T19:00:00.0Z) with a period of 4 weeks (P4W)
+            schedules: '2024-10-28T19:00:00.0Z/P4W'
+            createWithin: 'P1W'
+            issueTemplate: 'meeting-triage.md'
