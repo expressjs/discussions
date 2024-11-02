@@ -1,0 +1,25 @@
+name: ADR Labeler
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'docs/adr/**'
+
+jobs:
+  label-adr:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            # Adding ADR label - if it already exists, this is a no-op
+            github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['ADR']
+            })
