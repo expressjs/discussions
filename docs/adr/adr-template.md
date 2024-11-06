@@ -1,6 +1,6 @@
 # ADR template
 
-This is the base template that we use
+This is the base template that we use. Sections are optional, if they are not applicable to your proposal please remove them.
 
 ```md
 
