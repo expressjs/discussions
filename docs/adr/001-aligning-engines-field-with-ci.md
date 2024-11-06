@@ -27,6 +27,7 @@ We will establish a policy that requires the `engines` field in `package.json` t
 
 **What will be done?**  
 - Update the `engines` field in `package.json` for each package to reflect the minimum Node.js version supported by the corresponding CI configuration.
+- Include the `engines` fields in all the projects, so it will clarify what is supported for the final user
 
 **What will not be done?**  
 - We will not support versions of Node.js that are not explicitly defined in the `engines` field or tested in CI.
