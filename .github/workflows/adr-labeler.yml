@@ -1,7 +1,8 @@
 name: ADR Labeler
 
 on:
-  pull_request_target:
+  # PRs coming from forks will not have the write permissions required to run this action
+  pull_request:
     types: [opened, synchronize]
     paths:
       - 'docs/adr/**'
