@@ -32,7 +32,7 @@ TC members may request funds to be distributed for the following purposes:
 
 - Living expenses (food, shelter, medicine/healthcare, transportation, utilities)
   - The requester need not specify any detail other than the amount being requested.
-- Travel (hotel and airfare) to events related to Express or the greater Node/JS ecosystem
+- Travel (hotel and airfare) to events related to Express or the greater Node/JS ecosystem. _Legal Requirement: at least 18 years old and recognized as adults in both the country of departure and the destination country, based on local laws (ref: [Age of Majority](https://en.wikipedia.org/wiki/Age_of_majority))_
   - The requester should specify the event, location, and cost estimates for hotel and airfare.
 - Equipment and hardware (devices, screens, internet services)
   - The requester should specify the type of equipment or service needed and how it relates to their work on Express.
