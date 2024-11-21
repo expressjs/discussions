@@ -43,5 +43,5 @@ This meeting is open for anyone who wants to attend. Reminder to follow our [Cod
 
 ### Joining the meeting
 
-* link for participants: https://zoom-lfx.platform.linuxfoundation.org/meeting/95266714809?password=f37cff1b-cb3a-4a21-9425-210e4714c72e
+* link for participants: <%= title.split(' ').slice(-2).join(' ').toLowerCase() === "working session" ? 'https://zoom-lfx.platform.linuxfoundation.org/meeting/95258037175?password=07aad89d-ff43-45df-9b28-f437e167a0b9' : 'https://zoom-lfx.platform.linuxfoundation.org/meeting/95266714809?password=f37cff1b-cb3a-4a21-9425-210e4714c72e' %> 
 * For those who just want to watch: https://www.youtube.com/@expressjs-official
