@@ -16,54 +16,58 @@ Proposed
 
 ## Context
 
-Describe the problem, need, or feature request that prompted this decision. Include any relevant background information, constraints, and considerations that were taken into account.
+The document's objective is to gather all notable comments and thoughts in one place and track potential changes in this topic. We have noticed that it is repeated frequently in many issues from the community and we need to take action.
 
-- **Why do we need this decision?**
-- **What problem does it solve or avoid?**
-- **Are there any existing issues/discussions/pull requests related to this?** (Include links to relevant GitHub issues, forum threads, or discussion channels.)
+Based on the comments in the issues we know that some of you might not feel happy about it. We have acknowledged the need and discussion around it touched on multiple scenarios. Including:
+- rethinking the process and exposing both paths for all libraries
+- expose both paths for selected libraries
+- keeping default settings as the main target is on the server
 
-## Decision
+**Why do we need this decision?**
+- To reduce noise and maintain the ultimate answer for all of the issues.
 
-Clearly state the decision that was made. Describe the chosen solution or approach in detail so that others can understand what was decided.
+**What problem does it solve or avoid?**
+- General response to community request.
 
-- **What will be done?**
-- **What will not be done?** (If applicable, specify what was explicitly ruled out.)
-
-## Rationale
-
-Explain why this decision was made, including a discussion of the alternatives considered and why they were not chosen.
-
-- **Alternatives Considered:**
-  - Alternative 1: [Description and reasons for rejection]
-  - Alternative 2: [Description and reasons for rejection]
-- **Pros and Cons**: Outline the pros and cons of the chosen solution.
-- **Why is this decision the best option?** (Explain the key factors that influenced this choice.)
-
-## Consequences
-
-Describe the positive and negative outcomes of the decision, including any potential risks or technical debt.
-
-- **Positive Impact**: What benefits does this decision bring to the project?
-- **Negative Impact**: What challenges or limitations does this introduce?
-- **Mitigations**: How will we address potential drawbacks or issues?
-
-## Implementation
-
-(Optional, if relevant)
-Outline the steps required to implement the decision. This section is particularly useful if the decision involves a series of actions or a roadmap.
-
-- **Phase 1**: [Description]
-- **Phase 2**: [Description]
-- **Estimated Effort**: Provide a rough estimate of time or effort needed.
-
-## References
-
-Include any external links, documents, discussions, or research that were referenced during the decision-making process.
-
+**Are there any existing issues/discussions/pull requests related to this?**
 - https://github.com/pillarjs/router/issues/128
 - https://github.com/expressjs/discussions/issues/297
 - https://github.com/expressjs/express/discussions/6051
 - https://github.com/jshttp/cookie/issues/211
+
+## Decision
+
+During [working session](https://github.com/expressjs/discussions/issues/320) we have decided to not revisit, investigate or discuss this topic further. That means ESM exports won't be available for expressjs as well for pillarjs and jshttp packages.
+
+**What will be done?**
+
+Future issues can be closed with a link to this document.
+
+## Rationale
+
+CommonJS is the default node.js syntax. The JS world moved in the ESM direction as browsers consumed it well, and bundlers could make a tree-shake feature and dynamic imports. There is still a lot of baggage within the ESM itself and the way how we can use it. 
+
+To keep it short it's a whole new chapter to discuss and consider so it could use a lot of time and resources to make it properly. Don't get this wrong - it's not impossible tho! Most of our users will use the package in their project and pass it to the bundler which will produce the right format without any issues.
+
+- **Alternatives Considered:**
+  - Alternative 1: Add ESM export to our libraries. CommonJS format is accepted by all most popular bundlers.
+- **Pros and Cons**: Outline the pros and cons of the chosen solution.
+- **Why is this decision the best option?** Time and energy can be shifted to other topics.
+
+## Consequences
+
+- **Positive Impact**: It does not require to support another set of tools and one more major (or at least big) release.
+- **Negative Impact**:
+  - Packages can't be used in deno projects and potentially in other future runtime engines for JavaScript that decide to not support commonjs. That can be a potential user miss
+  - OSS library authors that use our packages in ESM native libs might suffer from a lack of support
+- **Mitigations**: Potential decision update to support isomorphism for selected libraries (not specified yet) and exposing both types (CJS and ESM)
+
+## References
+
+Support for commonjs imports in ESM code is available in the node. Described in docs:
+- https://nodejs.org/api/esm.html#interoperability-with-commonjs
+
+Support for ESM modules imports in commonjs is available since node v20 behind the experimental flag and node v23 without a flag. Docs:
 - https://nodejs.org/api/modules.html#loading-ecmascript-modules-using-require
 
 ## Changelog
