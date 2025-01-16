@@ -1,4 +1,4 @@
-# ADR: Not supporting isomorphism and shipping only commonjs
+# ADR: CommonJS only output
 
 ## Status
 
