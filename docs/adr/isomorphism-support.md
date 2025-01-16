@@ -63,6 +63,7 @@ Include any external links, documents, discussions, or research that were refere
 - https://github.com/pillarjs/router/issues/128
 - https://github.com/expressjs/discussions/issues/297
 - https://github.com/expressjs/express/discussions/6051
+- https://github.com/jshttp/cookie/issues/211
 - https://nodejs.org/api/modules.html#loading-ecmascript-modules-using-require
 
 ## Changelog
