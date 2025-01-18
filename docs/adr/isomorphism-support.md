@@ -1,4 +1,4 @@
-# ADR: CommonJS only output
+# ADR: Export the libraries specifically in ESM format
 
 ## Status
 
