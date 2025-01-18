@@ -27,7 +27,7 @@ We have acknowledged the need and discussion around it touched on multiple scena
 We aimed to consolidate the Technical Committee's (TC) opinion on this topic. It is important to emphasize that Express is an HTTP framework specifically designed for Node.js. Over the years, technology has evolved, and new runtimes have emerged. Additionally, some of our libraries are being utilized by the community in other environments, such as browsers.
 
 **What problem does it solve or avoid?**
-- General response to community request.
+Ambiguity and uncertainty for the community, alongside clear guidance for repository maintainers and contributors.
 
 **Are there any existing issues/discussions/pull requests related to this?**
 - https://github.com/pillarjs/router/issues/128
