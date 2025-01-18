@@ -45,9 +45,9 @@ Future issues can be closed with a link to this document.
 
 ## Rationale
 
-CommonJS is the default node.js syntax. The JS world moved in the ESM direction as browsers consumed it well, and bundlers could make a tree-shake feature and dynamic imports. There is still a lot of baggage within the ESM itself and the way how we can use it. 
+CommonJS is the default syntax in Node.js. While the JavaScript ecosystem has increasingly moved toward ESM due to its compatibility with browsers, enhanced tree-shaking capabilities, and support for dynamic imports, there are still complexities and challenges associated with ESM. 
 
-To keep it short it's a whole new chapter to discuss and consider so it could use a lot of time and resources to make it properly. Don't get this wrong - it's not impossible tho! Most of our users will use the package in their project and pass it to the bundler which will produce the right format without any issues.
+Adopting ESM for our libraries would require a significant investment of time and resources to ensure proper implementation and long-term maintenance. While it is not impossible to achieve, it represents a considerable effort. Moreover, the majority of our users already utilize our libraries in their projects, relying on bundlers to handle the necessary transformations without issues.
 
 - **Alternatives Considered:**
   - Alternative 1: Add ESM export to our libraries. CommonJS format is accepted by all most popular bundlers.
