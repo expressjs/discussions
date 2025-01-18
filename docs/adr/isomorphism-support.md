@@ -18,9 +18,9 @@ Proposed
 
 The document's objective is to gather all notable comments and thoughts in one place and track potential changes in this topic. We have noticed that it is repeated frequently in many issues from the community and we need to take action.
 
-Based on the comments in the issues we know that some of you might not feel happy about it. We have acknowledged the need and discussion around it touched on multiple scenarios. Including:
-- rethinking the process and exposing both paths for all libraries
-- expose both paths for selected libraries
+We have acknowledged the need and discussion around it touched on multiple scenarios. Including:
+- rethinking the process and exposing both options (ESM and CommonJS) for all libraries
+- expose both options (ESM and CommonJS) for selected libraries
 - keeping default settings as the main target is on the server
 
 **Why do we need this decision?**
