@@ -37,7 +37,13 @@ Ambiguity and uncertainty for the community, alongside clear guidance for reposi
 
 ## Decision
 
-During [working session](https://github.com/expressjs/discussions/issues/320) we have decided to not revisit, investigate or discuss this topic further. That means ESM exports won't be available for expressjs as well for pillarjs and jshttp packages.
+During the [working session](https://github.com/expressjs/discussions/issues/320), we had an in-depth discussion about this topic. After careful consideration, we concluded that we will not make a dedicated effort to export our libraries in the ESM format. Instead, we will continue exporting the libraries as we have done historically. 
+
+This decision is motivated by the lack of resources to maintain such an effort in the long term. It is also worth noting that Express is specifically designed to run with Node.js. While some of our libraries can be considered "isomorphic," this was unintended and can currently be classified as an "unofficial but functional feature." Consequently, our CI systems do not include browsers or other runtimes as part of their testing workflows.
+
+At present, our libraries function seamlessly in Node.js, supporting both CommonJS and ESM. Transitioning to support additional scenarios, such as direct ESM exports, would require significant changes to our CI systems and additional maintenance overhead.
+
+**TL;DR**: Dedicated ESM exports will not be available for Express.js, PillarJS, or JSHTTP packages. PR with such a change will not be accepted.
 
 **What will be done?**
 
@@ -75,3 +81,4 @@ Support for ESM modules imports in commonjs is available since node v20 behind t
 Track changes or updates to this ADR over time. Include the date, author, and a brief description of each change.
 
 - **[2025-01-15]**: [@kjugi] - document init
+- **[2025-01-18]**: [@kjugi] - applied code review suggestions
