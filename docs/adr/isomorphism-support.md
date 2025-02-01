@@ -43,7 +43,7 @@ This decision is motivated by the lack of resources to maintain such an effort i
 
 At present, our libraries function seamlessly in Node.js, supporting both CommonJS and ESM. Transitioning to support additional scenarios, such as direct ESM exports, would require significant changes to our CI systems and additional maintenance overhead.
 
-**TL;DR**: Dedicated ESM exports will not be available for Express.js, PillarJS, or JSHTTP packages. PR with such a change will not be accepted.
+**TL;DR**: Dedicated ESM exports will not be available for [expressjs](https://github.com/expressjs), [pillarjs](https://github.com/pillarjs), or [jshttp](https://github.com/jshttp) packages. PRs with such a change will not be accepted.
 
 **What will be done?**
 
