@@ -63,7 +63,7 @@ purview:
 
 This funding does not mean the work can only be done by the owners, it just means that we are responsible for organizing
 and execuring on the deliverables. This is our first attempt at doing a program like this, so hopefully we can deliver
-on this well and show other orginacitions that investing in Open Source is worthwhile.
+on this well and show other organizations that investing in Open Source is worthwhile.
 
 ## References
 
