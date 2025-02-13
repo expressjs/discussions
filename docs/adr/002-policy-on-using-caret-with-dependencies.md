@@ -23,7 +23,7 @@ This decision aims to reduce the maintenance burden of frequently updating pinne
 - [expressjs/express#6017 (comment)](https://github.com/expressjs/express/issues/6017)
 
 ## Decision
-We will adopt a policy where the caret (`^`) symbol is used for dependencies owned within the Express ecosystem (e.g., `body-parser` for Express), but continue to avoid using it for third-party dependencies that we do not maintain.
+We will adopt a policy where the caret (`^`) symbol is used for dependencies all dependencies.
 
 **What will be done?**  
 - Update the `package.json` files to use `^` for all dependencies (both prod and dev).
