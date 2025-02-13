@@ -30,8 +30,7 @@ We will adopt a policy where the caret (`^`) symbol is used for dependencies all
 
 **Note on `^` vs. `~`:**  
 - `^` allows updates to the most recent minor or patch version, offering greater flexibility and reducing the need for frequent manual updates. For example, `^1.2.3` will accept updates to `1.3.0`, `1.4.0`, but not `2.0.0`.
-- `~` is more conservative, only allowing updates to patch versions. For example, `~1.2.3` will accept updates to `1.2.4`, `1.2.5`, but not `1.3.0`.
-- For our own dependencies that adhere strictly to semver, `^` is preferred over `~`, while for third-party libraries, a stricter versioning strategy is maintained to prevent unexpected regressions.
+- `~` is more conservative, only allowing updates to patch versions. For example, `~1.2.3` will accept updates to `1.2.4`, `1.2.5`, but not `1.3.0`. Some Node.js legacy versions only support this, like Node@0.8.
 
 **What will not be done?**  
 - We won't force to use `^` or `~` for any dependency if there is a reason to use a pinned version and it is properly documented.
