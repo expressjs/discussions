@@ -26,7 +26,7 @@ This decision aims to avoid unexpected updates and regressions from external dep
 We will adopt a policy where the caret (`^`) symbol is used for dependencies owned within the Express ecosystem (e.g., `body-parser` for Express), but continue to avoid using it for third-party dependencies that we do not maintain.
 
 **What will be done?**  
-- Update the `package.json` files to use `^` for our own dependencies.
+- Update the `package.json` files to use `^` for all dependencies (both prod and dev).
 - Continue using fixed versions (no caret or tilde) for external dependencies to minimize risks of unintended updates.
 
 **Note on `^` vs. `~`:**  
