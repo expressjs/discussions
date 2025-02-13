@@ -10,7 +10,7 @@ Proposed
 - Express TC (@expressjs/express-tc)
 
 ## Context
-Historically, the Express project has avoided using the caret (`^`) in the `package.json` files for its own dependencies. This decision aims to review whether this practice should continue or if adjustments are needed.
+Historically, the Express project has avoided using the caret (`^`) in the `package.json` files for its own dependencies. This proposal aims to review whether this practice should continue or if adjustments are needed.
 
 **Why do we need this decision?**  
 Clarifying the policy on using caret (`^`) helps to ensure consistency across the Express ecosystem, reduce unnecessary maintenance, and prevent unexpected dependency updates. It also addresses concerns about the balance between keeping dependencies up-to-date and avoiding regressions.
