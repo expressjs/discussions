@@ -27,7 +27,6 @@ We will adopt a policy where the caret (`^`) symbol is used for dependencies own
 
 **What will be done?**  
 - Update the `package.json` files to use `^` for all dependencies (both prod and dev).
-- Continue using fixed versions (no caret or tilde) for external dependencies to minimize risks of unintended updates.
 
 **Note on `^` vs. `~`:**  
 - `^` allows updates to the most recent minor or patch version, offering greater flexibility and reducing the need for frequent manual updates. For example, `^1.2.3` will accept updates to `1.3.0`, `1.4.0`, but not `2.0.0`.
