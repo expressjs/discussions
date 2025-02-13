@@ -40,9 +40,7 @@ We will adopt a policy where the caret (`^`) symbol is used for dependencies all
 ## Rationale
 
 **Alternatives Considered:**
-- **Alternative 1:** Use `^` for all dependencies, including third-party libraries.  
-- **Reason for rejection:** This could increase the risk of unintended regressions and security issues from third-party updates.
-- **Alternative 2:** Continue pinning all dependencies, including internal ones, to specific versions.  
+- **Alternative:** Continue pinning all dependencies, including internal ones, to specific versions.  
 - **Reason for rejection:** This approach requires frequent updates and increases the maintenance burden, as each minor or patch update requires a new release.
 
 **Pros and Cons**:
