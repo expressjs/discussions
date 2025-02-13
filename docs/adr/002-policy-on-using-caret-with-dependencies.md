@@ -16,7 +16,7 @@ Historically, the Express project has avoided using the caret (`^`) in the `pack
 Clarifying the policy on using caret (`^`) helps to ensure consistency across the Express ecosystem, reduce unnecessary maintenance, and prevent unexpected dependency updates. It also addresses concerns about the balance between keeping dependencies up-to-date and avoiding regressions.
 
 **What problem does it solve or avoid?**  
-This decision aims to avoid unexpected updates and regressions from external dependencies while reducing the maintenance burden of frequently updating pinned dependencies.
+This decision aims to reduce the maintenance burden of frequently updating pinned dependencies.
 
 **Are there any existing issues/discussions/pull requests related to this?**  
 - [Discussion: Using caret (^) with our own dependencies #279](https://github.com/expressjs/discussions/issues/279)
