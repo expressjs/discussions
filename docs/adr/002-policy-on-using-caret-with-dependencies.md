@@ -34,8 +34,7 @@ We will adopt a policy where the caret (`^`) symbol is used for dependencies all
 - For our own dependencies that adhere strictly to semver, `^` is preferred over `~`, while for third-party libraries, a stricter versioning strategy is maintained to prevent unexpected regressions.
 
 **What will not be done?**  
-- We will not use `^` or `~` for external dependencies that are not maintained by the Express organization, as they could introduce unexpected changes.
-- We won't force to use `^` or `~` for own dependencies if there is a reason to use a pinned version and it is properly documented.
+- We won't force to use `^` or `~` for any dependency if there is a reason to use a pinned version and it is properly documented.
 
 ## Rationale
 
