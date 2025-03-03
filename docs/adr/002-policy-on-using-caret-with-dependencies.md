@@ -72,7 +72,7 @@ This decision strikes a balance between reducing maintenance effort and managing
 
 ## Implementation
 
-- **Phase 1**: Update `package.json` files across all packages to apply `^` for all dependencies.
+- **Phase 1**: Update `package.json` files across all packages to apply `^` for all dependencies which support greater than node@0.10.0.
 - **Phase 2**: Review and adjust documentation to include the new policy on dependency versioning.
 
 ## References
