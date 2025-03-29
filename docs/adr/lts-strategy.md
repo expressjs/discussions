@@ -110,7 +110,7 @@ important.
 
 **CURRENT**
 
-- New majors will go through a short period hardening to ensure stability, security, and ecosystem libraries/resources
+- New majors will go through a short period of hardening to ensure stability, security, and ecosystem libraries/resources
   compatibility.
 - We will strive to ensure no breaking changes are included, but reserve the right to make security or high priority
   fixes of breaking nature within this period.
