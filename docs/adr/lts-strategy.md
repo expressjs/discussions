@@ -86,7 +86,7 @@ requirements:
 - Dropping old Node.js versions *alone* is not enough of a breaking change to release a new major version. Applies to
   `express`, dependencies, middleware, & tools/other.
 - `express` version 4.x is considered a special case. It will receive a longer `MAINTENENCE` phase of 18 months or until
-  the TC agrees we are save cutting support.
+  the TC agrees we are safe cutting support.
 - `express` dependency packages will follow the same timeline and support dates for the `express` version which they are
   included with.
 - Middleware packages should follow the timeline and support dates for the `express` versions they are compatible, but
