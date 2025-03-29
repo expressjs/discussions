@@ -77,7 +77,7 @@ requirements:
     tagged `latest` on npm for a minimum of 12 months.
   - `MAINTENANCE`: When a new major version becomes `ACTIVE`, the previous major version enters `MAINTENANCE` for 12 months.
 - After the `MAINTENANCE` time has ended the major version is considered `EOL` and is unsupported.
-- During the 12 month `ACTIVE` period, a new major version may be released but *not* until at least 6 months have passed
+- During the `ACTIVE` period, a new major version may be released but *not* until at least 6 months have passed
   since the `CURRENT` version became `ACTIVE`.
 - Users are required to follow the head/latest of each major release line for support with all packages (`express`,
   dependencies, middleware, & tools/other)
@@ -108,7 +108,7 @@ important.
 
 ### Life Cycle Phases & Meaning
 
-**CURRENT**
+#### CURRENT
 
 - New majors will go through a short period of hardening to ensure stability, security, and ecosystem libraries/resources
   compatibility.
@@ -118,20 +118,16 @@ important.
   deprecation notices.
 - Users are recommended to use  `CURRENT` lines and to upgrade as quickly as their risk profile allows
 
-**ACTIVE**
+#### ACTIVE
 
 - `ACTIVE` lines will receive all types of active work including: bug fixes, security patches, new features, and
   deprecation notices.
 - For users, `ACTIVE` lines are considered the most stable and well supported version at any given time.
 
-**MAINTENANCE**
+#### MAINTENANCE
 
 - `MAINTENANCE` lines will only receive security patches or high priority bug fixes.
 - Users are highly encouraged to upgrade to a `CURRENT` or `ACTIVE` release.
-
-### Guidelines for other packages/repos
-
-**`express` dependencies**
 
 ### Schedule
 
@@ -148,22 +144,23 @@ For the existing release lines, we will set the following phase dates:
 
 The project will maintain two types of documentation for this:
 
-**Project documentation for the maintainers:**
+#### Project documentation for the maintainers:
 
 This includes this doc, but also detailed things about the process that are not necessary for anyone but us. This
-documentation will live in one of three places:
+documentation will live in one of two places:
 
 1. The `discussions` repo. If the content applies to more than one repo/package in any of the three orgs, is general in
    nature, or otherwise has no logical other place to go it goes here.
 2. The individual repo/package to which it applies. If an individual package has more detailed or different needs the
    docs will live along with the repo as decided by the captains.
 
-**User documentation:**
+#### User documentation:
 
 This will be produced for the website. While the source content of it may live in other places (for example a repo to
-produce an image for the schedule), the users will be directed to the website to view the current updated version.
+produce an image for the schedule), the users will be directed to the website to view the current updated version. This
+will also co-locate with documentation about Node.js support and other related support content. 
 
-**Next steps:**
+#### Next steps:
 
 - Update the existing LTS doc with more details from this decision
 - Update website pages with more details from this decision
