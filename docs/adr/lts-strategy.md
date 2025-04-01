@@ -77,7 +77,7 @@ requirements:
     tagged `latest` on npm for a minimum of 12 months.
   - `MAINTENANCE`: When a new major version becomes `ACTIVE`, the previous major version enters `MAINTENANCE` for 12 months.
 - After the `MAINTENANCE` time has ended the major version is considered `EOL` and is unsupported.
-- During the `ACTIVE` period, a new major version may be released but *not* until at least 6 months have passed
+- During the `ACTIVE` period, a new major version may be released but *not* until at least 12 months have passed
   since the `CURRENT` version became `ACTIVE`.
 - Users are required to follow the head/latest of each major release line for support with all packages (`express`,
   dependencies, middleware, & tools/other)
@@ -136,9 +136,14 @@ For the existing release lines, we will set the following phase dates:
 
 | Major | CURRENT | ACTIVE | MAINTENANCE | EOL |
 | ----- | ------- | ------ | ----------- | --- |
-| 4.x   |         |        | 2025-04-01 | 2026-10-01 or later |
-| 5.x   | 2024-09-11 | 2025-03-31 | 2026-04-01 | 2027-04-01 |
-| 6.x   | TBD after 2025-10-01 | | | |
+| 4.x   |         |        | 2025-04-01 | *no sooner than 2026-10-01 |
+| 5.x   | 2024-09-11 | 2025-03-31 | **no sooner than 2026-04-01 | **no sooner than 2027-04-01 |
+| 6.x   | ***no sooner than 2026-01-01 | | | |
+
+*: v4 is a special case, and we may extend MAINTENENCE support
+**: v5 MAINTENENCE and EOL dates are determined by when v6 is released, these dates reflect the earliest datest if we
+were to ship v6 on 2025-10-01
+***: v6 work has not officially started yet, this is simply the earliest date we can ship based on our proposed policy
 
 ### Documentation
 
