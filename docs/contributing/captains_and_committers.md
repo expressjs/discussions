@@ -2,7 +2,9 @@
 
 - [`expressjs/badgeboard`](https://github.com/expressjs/badgeboard): @wesleytodd
 - [`expressjs/basic-auth-connect`](https://github.com/expressjs/basic-auth-connect): @ulisesGascon
-- [`expressjs/body-parser`](https://github.com/expressjs/body-parser): @wesleytodd, @jonchurch, @ulisesGascon
+- [`expressjs/body-parser`](https://github.com/expressjs/body-parser): 
+  - Captains: @wesleytodd, @jonchurch, @ulisesGascon
+  - Committers: @Phillip9587
 - [`expressjs/codemod`](https://github.com/expressjs/codemod): @bjohansebas (npm: `@bsebas`), @kjugi (npm: `@filip.kudla`)
 - [`expressjs/compression`](https://github.com/expressjs/compression):
     - captains: @UlisesGascon
