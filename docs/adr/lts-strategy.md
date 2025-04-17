@@ -95,16 +95,8 @@ requirements:
 
 ### Node.js Version Support
 
-- Each major version of all packages (`express`, deps, middleware, etc) will support a minimum of the oldest Node.js LTS
-at the time of release and maintain that support through its entire life cycle. This includes EOL Node.js versions.
-- `express` may choose to continue support for EOL Node.js versions in all three phases if deemed valuable, but will
-strive to cut support before it becomes a drain on progress.
-- All `express` dependency packages must support, at a minimum, the Node.js versions that are supported by the `express`
-major line they are included in while that `express` line is not `EOL`.
-- Middleware packages must at a minimum follow the same Node.js versions as the `CURRENT` and `ACTIVE` release lines of
-`express`. They should attempt to also support `MAINTENANCE` lines as well, but the discretion of the captains is
-important.
-- All other packages are suggested to follow a reasonable Node.js support policy for their needs.
+While we recognize that runtime support needs to be tightly aligned with our LTS policy, it is out of scope for this
+ADR and will be addressed in a separate proposal.
 
 ### Life Cycle Phases & Meaning
 
@@ -137,13 +129,15 @@ For the existing release lines, we will set the following phase dates:
 | Major | CURRENT | ACTIVE | MAINTENANCE | EOL |
 | ----- | ------- | ------ | ----------- | --- |
 | 4.x   |         |        | 2025-04-01 | *no sooner than 2026-10-01 |
-| 5.x   | 2024-09-11 | 2025-03-31 | **no sooner than 2026-04-01 | **no sooner than 2027-04-01 |
-| 6.x   | ***no sooner than 2026-01-01 | | | |
+| 5.x   | 2024-09-11 | 2025-03-31 | **TBD | **TBD |
+| 6.x   | ***TBD | | | |
 
-*: v4 is a special case, and we may extend MAINTENENCE support
-**: v5 MAINTENENCE and EOL dates are determined by when v6 is released, these dates reflect the earliest datest if we
-were to ship v6 on 2025-10-01
-***: v6 work has not officially started yet, this is simply the earliest date we can ship based on our proposed policy
+*: v4 is a special case, and we may extend MAINTENENCE support. This date is called out to give users confidence we will
+   not end-of-life *earlier* than this date.
+**: v5 MAINTENENCE and EOL dates are determined by when v6 is released. We will update them when v6 release dates are
+    committed to. 
+***: v6 work has not started yet. The earliers we could choose to release by this proposal is 2026-01-01. We will update
+     these dates when we commit to them.
 
 ### Documentation
 
