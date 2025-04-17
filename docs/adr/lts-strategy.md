@@ -128,15 +128,15 @@ For the existing release lines, we will set the following phase dates:
 
 | Major | CURRENT | ACTIVE | MAINTENANCE | EOL |
 | ----- | ------- | ------ | ----------- | --- |
-| 4.x   |         |        | 2025-04-01 | *no sooner than 2026-10-01 |
-| 5.x   | 2024-09-11 | 2025-03-31 | **TBD | **TBD |
-| 6.x   | ***TBD | | | |
+| 4.x   |         |        | 2025-04-01 | <sup>[1]</sup> no sooner than 2026-10-01 |
+| 5.x   | 2024-09-11 | 2025-03-31 | <sup>[2]</sup>TBD | <sup>[2]</sup>TBD |
+| 6.x   | <sup>[3]</sup>TBD | | | |
 
-*: v4 is a special case, and we may extend MAINTENENCE support. This date is called out to give users confidence we will
+1. v4 is a special case, and we may extend MAINTENENCE support. This date is called out to give users confidence we will
    not end-of-life *earlier* than this date.
-**: v5 MAINTENENCE and EOL dates are determined by when v6 is released. We will update them when v6 release dates are
+2. v5 MAINTENENCE and EOL dates are determined by when v6 is released. We will update them when v6 release dates are
     committed to. 
-***: v6 work has not started yet. The earliers we could choose to release by this proposal is 2026-01-01. We will update
+3. v6 work has not started yet. The earliers we could choose to release by this proposal is 2026-01-01. We will update
      these dates when we commit to them.
 
 ### Documentation
