@@ -1,4 +1,4 @@
-# ADR [Number]: Performance Working Group
+# ADR #306: Performance Working Group
 
 ## Status
 
