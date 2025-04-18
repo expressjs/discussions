@@ -75,7 +75,7 @@ requirements:
     on npm for a minimum of 3 months.
   - `ACTIVE`: After the minimum 3 month period and the TC agrees it is stable and secure, the `ACTIVE` version is
     tagged `latest` on npm for a minimum of 12 months.
-  - `MAINTENANCE`: When a new major version becomes `ACTIVE`, the previous major version enters `MAINTENANCE` for 12 months.
+  - `MAINTENANCE`: When a new major version becomes `ACTIVE`, the previous major version enters `MAINTENANCE` for a minimum of 12 months.
 - After the `MAINTENANCE` time has ended the major version is considered `EOL` and is unsupported.
 - During the `ACTIVE` period, a new major version may be released but *not* until at least 12 months have passed
   since the `CURRENT` version became `ACTIVE`.
