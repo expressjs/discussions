@@ -3,7 +3,7 @@
 - [`expressjs/badgeboard`](https://github.com/expressjs/badgeboard): @wesleytodd
 - [`expressjs/basic-auth-connect`](https://github.com/expressjs/basic-auth-connect): @ulisesGascon
 - [`expressjs/body-parser`](https://github.com/expressjs/body-parser): 
-  - Captains: @wesleytodd, @jonchurch, @ulisesGascon
+  - Captains: @jonchurch, @ulisesGascon
   - Committers: @Phillip9587
 - [`expressjs/codemod`](https://github.com/expressjs/codemod): @bjohansebas (npm: `@bsebas`), @kjugi (npm: `@filip.kudla`)
 - [`expressjs/compression`](https://github.com/expressjs/compression):
@@ -20,8 +20,8 @@
     - captains: @wesleytodd, @ulisesGascon
     - committers: @bjohansebas, @Phillip9587
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
-    - captains: @crandmck, @jonchurch, @bjohansebas
-    - committers: @carlosstenzel, @chrisdel101
+    - captains (@expressjs/docs-wg-captains): @crandmck, @jonchurch, @bjohansebas
+    - committers (@expressjs/docs-collaborators): @carlosstenzel, @chrisdel101
 - [`expressjs/flash`](https://github.com/expressjs/flash): @ulisesGascon
 - [`expressjs/generator`](https://github.com/expressjs/generator): @wesleytodd
 - [`expressjs/method-override`](https://github.com/expressjs/method-override): @ulisesGascon
@@ -80,4 +80,6 @@
 
 ### Current Initiative Captains
 
-- Triage team [ref](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
+- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
+- [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
+- [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
