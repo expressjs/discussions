@@ -26,12 +26,13 @@ Several points were raised during the discussion:
 ## Decision
 
 - We will **not** add non-Node.js environment testing to our CI pipelines.
+  - Exceptions may be made iff there is strongly compelling, project-aligned justification.
 - CI will continue to run only against supported Node.js versions.
-- Support for other environments may exist, but we do not guarantee correctness or compatibility across all environments.
+- Support for other environments may exist, per maintainer discretion, but we do not guarantee support across all environments.
   - Some libraries, particularly language-only libraries which do not require non-language APIs, strive to support as many environments as possible.
     - Nonetheless, support is not guaranteed across every possible environment, and is provided on a best-effort basis.
-  - Libraries will not explicitly list all supported environments; they may, however, state general compatibility information, e.g. ECMAScript version.
-- If issues are reported for other environments, maintainers may investigate at their discretion, but no automated validation or regression testing infrastructure will be built for them.
+  - Libraries may state general compatibility information, e.g. ECMAScript version, and possibly information about supported environments, but will not explicitly list all supported environments.
+- If issues are reported for other environments, maintainers will investigate at their discretion.
 
 ## Rationale
 
