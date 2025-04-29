@@ -14,20 +14,23 @@ Proposed
 
 ## Context
 
-Express and its libraries were specifically designed to run with Node.js (V8). While some of our libraries can run in other environments (e.g. runtimes, engines, browsers), they are not officially supported. Consequently, our CI systems do not include other environments as part of their testing workflows.
+Express and its libraries were specifically designed to run with Node.js (V8). While some of our libraries can run in other environments (e.g. runtimes, engines, browsers), they are not necessarily supported in all environments. Consequently, our CI systems do not include other environments as part of their testing workflows.
 
 Several points were raised during the discussion:
 
 - Cost of running additional CI vs the likelihood of detecting a problem
 - Introducing maintenance overhead and possible coupling to other environments' development lifecycle
 - No JS engine implements ECMAScript 100% correctly; thus, claiming "ES2015 support" does not guarantee correctness across all environments.
-- Engine regressions or language edge cases could break functionality in unpredictable ways that are not practical for us to monitor across all environments.
+- Environment regressions or language edge cases could break functionality in unpredictable ways that are not practical for us to monitor across all environments.
 
 ## Decision
 
 - We will **not** add non-Node.js environment testing to our CI pipelines.
 - CI will continue to run only against supported Node.js versions.
-- Unofficial support for other environments may exist, but we do not guarantee correctness or compatibility across those environments.
+- Support for other environments may exist, but we do not guarantee correctness or compatibility across all environments.
+  - Some libraries, particularly language-only libraries which do not require non-language APIs, strive to support as many environments as possible.
+    - Nonetheless, support is not guaranteed across every possible environment, and is provided on a best-effort basis.
+  - Libraries will not explicitly list all supported environments; they may, however, state general compatibility information, e.g. ECMAScript version.
 - If issues are reported for other environments, maintainers may investigate at their discretion, but no automated validation or regression testing infrastructure will be built for them.
 
 ## Rationale
