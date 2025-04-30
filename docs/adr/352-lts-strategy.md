@@ -1,8 +1,8 @@
-# ADR [Number]: LTS Strategy and Support Schedule
+# ADR #352: LTS Strategy and Support Schedule
 
 ## Status
 
-Proposed
+Accepted
 
 ## Submitters
 
