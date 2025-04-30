@@ -1,12 +1,15 @@
-# ADR 002: Policy on Using Caret (`^`) or tilde (`~`) with Dependencies in `package.json`
+# ADR #290: Policy on Using Caret (`^`) or tilde (`~`) with Dependencies in `package.json`
 
 ## Status
-Proposed
+
+Accepted
 
 ## Submitters
+
 - Ulises Gascón (@UlisesGascon)
 
 ## Decision Owners
+
 - Express TC (@expressjs/express-tc)
 
 ## Context
