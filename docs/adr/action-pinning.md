@@ -42,11 +42,11 @@ Instead:
 
 - Use **semantic version tags** (e.g., `@v4`) by default.
 - Do **not use `@main` or other floating branch refs**.
+- Repositories should **enable Dependabot for GitHub Actions** and set `schedule/interval` to a reasonable value, such as `monthly`.
 - For workflows that **access secrets, publish artifacts, or have privileged scopes**, repository maintainers **may** choose to pin to commit hashes **if justified**.
 - Where pinning is used:
   - A reviewer **must manually verify** the commit hash belongs to the correct source repository.
   - The verification step **must be noted in the PR review** to ensure accountability.
-- Repositories with **Dependabot enabled for GitHub Actions** are encouraged to rely on semantic versions and auto-patching.
 
 ## Consequences
 
