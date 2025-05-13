@@ -14,7 +14,7 @@ Proposed
 
 ## Context
 
-TypeScript is now widely adopted and has a large, active community. Many developers use it alongside packages maintained by the Express project. As such, there's a growing need to enhance TypeScript support—both by maintaining accurate type definitions and by addressing existing and future issues related to typings.
+TypeScript is now widely adopted and has a large, active community. Many developers use it alongside packages maintained by the Express project. As such, there's a growing need to enhance TypeScript support — both by maintaining accurate type definitions and by addressing existing and future issues related to typings.
 
 - **Why do we need this decision?**
 
