@@ -37,7 +37,11 @@ Similar to the Security WG and Performance WG, we will set up a new repository (
 - Making decisions on TypeScript support within Express-maintained repositories
 - Maintaining up-to-date TypeScript type definitions
 - Enhancing documentation for TypeScript usage across Express packages
+### Initial Goal
 
+The TypeScript Working Group’s initial goal is to ensure that the `express` package has **high-quality, semantically correct, and up-to-date type definitions that accurately reflect its public API.**
+
+As part of this effort, the working group will also evaluate whether and how to support types in other Express-maintained packages. Decisions around publishing first party types vs. DefinitelyTyped maintenance, release cycle alignment, and tooling support will be developed collaboratively and documented as part of the group's ongoing charter.
 We will need to take a few actions to get this started:
 
 1. Create a new `typescript-wg` repo
