@@ -48,6 +48,10 @@ We will need to take a few actions to get this started:
 
 Since Express has become active again and the new version, Express v5, has been released, several issues related to typings have emerged. There have also been discussions about actively integrating type definitions within the repositories.
 
+Most packages under the Express umbrella are not written in TypeScript, and not all maintainers are interested in taking on type maintenance responsibilities. A small number (such as `path-to-regexp`) maintain their own types, but this is the exception rather than the norm.
+
+The proposed working group provides a focused avenue for contributors who are interested in TypeScript to collaboratively improve, maintain, and guide the strategy for type definitions across Express projects, starting with the core `express` package.
+
 ## References
 
 - https://github.com/expressjs/discussions/issues/192
