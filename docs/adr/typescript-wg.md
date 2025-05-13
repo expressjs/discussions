@@ -33,6 +33,7 @@ This proposal aims to establish a dedicated team responsible for maintaining Typ
 
 Similar to the Security WG and Performance WG, we will set up a new repository (expressjs/typescript-wg) along with a corresponding action plan. This working group will be empowered to build consensus and make decisions within its scope. Its core responsibilities will include:
 
+- Ensure `express` package types are semantically correct, current with the implementation, and provide a high-quality developer experience
 - Making decisions on TypeScript support within Express-maintained repositories
 - Maintaining up-to-date TypeScript type definitions
 - Enhancing documentation for TypeScript usage across Express packages
