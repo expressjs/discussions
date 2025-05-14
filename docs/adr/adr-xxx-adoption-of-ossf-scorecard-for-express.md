@@ -26,7 +26,7 @@ The Express project will adopt OSSF Scorecard reporting as part of its security 
 - Engage contributors, including new collaborators, by involving them in the creation and review of Scorecard-related PRs.
 
 ### Exclusions
-- We will not utilize the Step-Security auto-suggestion feature for PRs at this time, opting instead for manually curated and reviewed PRs. This will allow the security team to gradually onboard contributors and assess each change carefully.
+- Some suggestions made by the Scorecard may not be implemented in the organization for various reasons. For example, we decided that [pinning dependencies is considered optional](https://github.com/expressjs/discussions/blob/master/docs/adr/action-pinning.md). It is important to reach consensus before making bulk changes across repositories.
 
 ## Rationale
 The decision to adopt OSSF Scorecards stems from its demonstrated impact in similar environments, such as the Node.js project, where it has proven valuable for continuous security improvement and community engagement. Key considerations include:
