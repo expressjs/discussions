@@ -47,7 +47,8 @@ The OSSF Scorecard is a mature, well-supported solution that aligns with Express
 
 ## Implementation
 
-- Already implemented in the 3 GitHub organizations related to Express ecosystem: [expressjs](https://github.com/expressjs), [pillarjs](https://github.com/pillarjs) and [jshttp](https://github.com/jshttp).
+- Already implemented across the three GitHub organizations related to the Express ecosystem: [expressjs](https://github.com/expressjs), [pillarjs](https://github.com/pillarjs), and [jshttp](https://github.com/jshttp).
+- The security team will monitor changes in the Scorecard results and address issues as needed. The team will determine what can be fixed and prioritize accordingly. To streamline this process, an [automation is in place](https://github.com/expressjs/security-wg/blob/main/.github/workflows/ossf-scorecard-reporting.yml) that reports changes in the Scorecard scores.
 
 ## References
 
