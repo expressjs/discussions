@@ -1,4 +1,4 @@
-# ADR XXX: Adoption of OSSF Scorecard for Express
+# ADR 83381fbd-593e-49c6-9419-1fe569ac89aa: Adoption of OSSF Scorecard for Express
 
 ## Status
 Proposed
