@@ -57,6 +57,16 @@ seeking process to evaluate whether or not to add this new member.
 Members who do not participate consistently at the level of a majority
 of the other members are expected to resign.
 
+TC memberships are not time-limited. The TC is limited to a maximum of 10 members.
+
+In order to ensure adequate representation of the interests of diverse stakeholders,
+no more than one-third of the TC membership may be affiliated with the same
+company/entity. If a change in TC membership or a change of affiliation by a TC member
+creates a situation where more than one-third of the TC membership
+are affiliated with the same company/entity, then the situation must be immediately
+remedied by the removal of member status from one or more TC members affiliated with
+the over-represented company.
+
 ## Section 4: Roles & Responsibilities
 
 The Express TC manages all aspects of both the technical and community
