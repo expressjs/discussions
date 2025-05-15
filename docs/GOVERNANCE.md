@@ -155,17 +155,23 @@ The list can be found at [https://github.com/expressjs/discussions/blob/HEAD/doc
 
 The list can be found at [https://github.com/expressjs/discussions/blob/HEAD/docs/contributing/captains_and_committers.md#current-initiative-captains](https://github.com/expressjs/discussions/blob/HEAD/docs/contributing/captains_and_committers.md#current-initiative-captains)
 
-## Inactivity Policy for Any Role
+## Inactivity and Emeritus Policy for Any Role
 
-To ensure the *health* and *continuity* of the project, anyone holding a *role* within the community (*Triager, Committer, Project Captain,* or *TC member*) must maintain *active participation*.
+To support the health and continuity of the project, all individuals holding a role within the community (Triager, Committer, Project Captain, or TC member) are expected to maintain active participation.
 
-**Definition of *inactivity*:** Not having *activity* in the project (such as *contributions, reviews, triage, attending meetings, participating in discussions,* etc.) for a *consecutive period of 6 months*.
+Inactivity is defined as the absence of meaningful involvement in the project—such as contributions, code reviews, triage, meeting attendance, or discussion participation—for a continuous period of 6 months.
 
-**Process upon detecting *inactivity*:**
+### Exceptions
+Anyone may request a temporary leave from active participation due to personal or professional reasons. In such cases, the individual should inform the relevant team or the Technical Committee (TC). During this time, the inactivity policy is paused, and the individual will not be flagged as inactive.
 
-- The person will be *notified* about their *inactive status* and *invited* to *resume participation* within a *reasonable timeframe*.
-- If *participation* is *not resumed* after that period, the person may be *removed* or *moved to an inactive status* corresponding to their *role*.
-- In case of *disagreement*, the situation may be *discussed* and *resolved by consensus* within the *TC* or the respective *team*.
+### Inactivity Process
+- If no exception is communicated and inactivity is detected, the individual will be notified and invited to resume participation within a reasonable timeframe.
+- If participation is not resumed, the individual may be transitioned to an emeritus role that reflects their past contributions.
+- The emeritus status helps preserve a clear record of contributors who have meaningfully shaped the project over time.
+
+### Accountability
+- The Technical Committee (TC) is responsible for monitoring activity levels and applying this policy fairly and transparently, in coordination with other relevant teams.
+- In case of disagreement, the situation can be discussed and resolved by consensus within the TC or appropriate team.
 
 ## Developer's Certificate of Origin 1.1
 
