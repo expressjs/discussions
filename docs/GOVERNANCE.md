@@ -155,6 +155,18 @@ The list can be found at [https://github.com/expressjs/discussions/blob/HEAD/doc
 
 The list can be found at [https://github.com/expressjs/discussions/blob/HEAD/docs/contributing/captains_and_committers.md#current-initiative-captains](https://github.com/expressjs/discussions/blob/HEAD/docs/contributing/captains_and_committers.md#current-initiative-captains)
 
+## Inactivity Policy for Any Role
+
+To ensure the *health* and *continuity* of the project, anyone holding a *role* within the community (*Triager, Committer, Project Captain,* or *TC member*) must maintain *active participation*.
+
+**Definition of *inactivity*:** Not having *activity* in the project (such as *contributions, reviews, triage, attending meetings, participating in discussions,* etc.) for a *consecutive period of 6 months*.
+
+**Process upon detecting *inactivity*:**
+
+- The person will be *notified* about their *inactive status* and *invited* to *resume participation* within a *reasonable timeframe*.
+- If *participation* is *not resumed* after that period, the person may be *removed* or *moved to an inactive status* corresponding to their *role*.
+- In case of *disagreement*, the situation may be *discussed* and *resolved by consensus* within the *TC* or the respective *team*.
+
 ## Developer's Certificate of Origin 1.1
 
 ```text
