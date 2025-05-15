@@ -9,20 +9,17 @@
 - [`expressjs/compression`](https://github.com/expressjs/compression):
   - captains: @UlisesGascon
   - committers: @bjohansebas
-- [`expressjs/connect-multiparty`](https://github.com/expressjs/connect-multiparty): @ulisesGascon
 - [`expressjs/cookie-parser`](https://github.com/expressjs/cookie-parser): @wesleytodd, @UlisesGascon
 - [`expressjs/cookie-session`](https://github.com/expressjs/cookie-session): @ulisesGascon
 - [`expressjs/cors`](https://github.com/expressjs/cors): @jonchurch, @ulisesGascon
 - [`expressjs/discussions`](https://github.com/expressjs/discussions): @wesleytodd
 - [`expressjs/errorhandler`](https://github.com/expressjs/errorhandler): @ulisesGascon
-- [`expressjs/express-paginate`](https://github.com/expressjs/express-paginate): @ulisesGascon
 - [`expressjs/express`](https://github.com/expressjs/express):
   - captains: @wesleytodd, @ulisesGascon
   - committers: @bjohansebas, @Phillip9587
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
   - captains: @crandmck, @jonchurch, @bjohansebas
   - committers: @carlosstenzel, @chrisdel101, @ShubhamOulkar
-- [`expressjs/flash`](https://github.com/expressjs/flash): @ulisesGascon
 - [`expressjs/generator`](https://github.com/expressjs/generator): @wesleytodd
 - [`expressjs/method-override`](https://github.com/expressjs/method-override): @ulisesGascon
 - [`expressjs/morgan`](https://github.com/expressjs/morgan): @jonchurch, @ulisesGascon
@@ -88,6 +85,7 @@
 - [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
 - [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
 - [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
+- Archived repos and deprecated packages: @UlisesGascon
 
 ## Accounts details
 
