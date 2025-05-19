@@ -19,38 +19,38 @@ has been spread out across multiple issues, repos, slack channels, and meetings.
 and generally have agreed on our goals/strategy but we have not officially documented and centralized that. This ADR is
 both gathering all that context to one place as well as give concrete decisions and next steps.
 
-### Scope:
+### Scope
 
 This ADR applies to, and should cover, all repositories within the Express Projects three orgs (`jshttp`, `pillarjs`,
 `expressjs`). While everything stems from support for the primary `express` package, due to the coupling of many of our
-dependency and middleware packages, we must also address those packages as well. 
+dependency and middleware packages, we must also address those packages as well.
 
-### ADR Goals:
+### ADR Goals
 
 - Improve documentation on our support goals
 - Document criteria and reasoning for when to release new majors
-- Define life cycle for releases, terminology we will use, 
+- Define life cycle for releases and terminology we will use
 - Improve documentation on how our LTS relates to Node.js version support
 - Documentation on how our LTS relates to our direct dependencies and other Express project repos/packages
-- Set clear next steps for documenting and publicising the LTS strategy 
+- Set clear next steps for documenting and publicizing the LTS strategy
 - Select dates for known release line support and EOL
-- Create starter language and graphics for our future blog posts, website additions, and other necessary docs 
+- Create starter language and graphics for our future blog posts, website additions, and other necessary docs
 
-### ADR Non-Goals:
+### ADR Non-Goals
 
 - Create an end-user documentation resource (either for immediate use or future use)
 - Commit to future release dates
 
 **Existing issues/discussions/pull requests related to this:**
 
-- Initial LTS strategy doc: https://github.com/expressjs/discussions/blob/master/docs/LTS-strategy.md
-- Additional LTS doc proposal: https://github.com/expressjs/admin/pull/3
-- https://github.com/ctcpip/express-release
+- Initial LTS strategy doc: <https://github.com/expressjs/discussions/blob/master/docs/LTS-strategy.md>
+- Additional LTS doc proposal: <https://github.com/expressjs/admin/pull/3>
+- <https://github.com/ctcpip/express-release>
 - Some other related discussions:
-  - https://github.com/expressjs/discussions/issues/196
-  - https://github.com/expressjs/discussions/issues/172
-  - https://github.com/expressjs/discussions/issues/67
-- TC Slack Discussion: https://openjs-foundation.slack.com/archives/C06KMCETHG9/p1724863852681889
+  - <https://github.com/expressjs/discussions/issues/196>
+  - <https://github.com/expressjs/discussions/issues/172>
+  - <https://github.com/expressjs/discussions/issues/67>
+- TC Slack Discussion: <https://openjs-foundation.slack.com/archives/C06KMCETHG9/p1724863852681889>
 
 ### Package/Repository Types
 
@@ -85,7 +85,7 @@ requirements:
   dependencies, middleware, & tools/other.
 - Dropping old Node.js versions *alone* is not enough of a breaking change to release a new major version. Applies to
   `express`, dependencies, middleware, & tools/other.
-- `express` version 4.x is considered a special case. It will receive a longer `MAINTENENCE` phase of 18 months or until
+- `express` version 4.x is considered a special case. It will receive a longer `MAINTENANCE` phase of 18 months or until
   the TC agrees we are safe cutting support.
 - `express` dependency packages will follow the same timeline and support dates for the `express` version which they are
   included with.
@@ -125,25 +125,24 @@ ADR and will be addressed in a separate proposal.
 
 For the existing release lines, we will set the following phase dates:
 
-
 | Major | CURRENT | ACTIVE | MAINTENANCE | EOL |
 | ----- | ------- | ------ | ----------- | --- |
 | 4.x   |         |        | 2025-04-01 | <sup>[1]</sup> no sooner than 2026-10-01 |
 | 5.x   | 2024-09-11 | 2025-03-31 | <sup>[2]</sup>TBD | <sup>[2]</sup>TBD |
 | 6.x   | <sup>[3]</sup>TBD | | | |
 
-1. v4 is a special case, and we may extend MAINTENENCE support. This date is called out to give users confidence we will
+1. v4 is a special case, and we may extend MAINTENANCE support. This date is called out to give users confidence we will
    not end-of-life *earlier* than this date.
-2. v5 MAINTENENCE and EOL dates are determined by when v6 is released. We will update them when v6 release dates are
-    committed to. 
-3. v6 work has not started yet. The earliers we could choose to release by this proposal is 2026-01-01. We will update
+2. v5 MAINTENANCE and EOL dates are determined by when v6 is released. We will update them when v6 release dates are
+    committed to.
+3. v6 work has not started yet. The earliest we could choose to release by this proposal is 2026-01-01. We will update
      these dates when we commit to them.
 
 ### Documentation
 
 The project will maintain two types of documentation for this:
 
-#### Project documentation for the maintainers:
+#### Project documentation for the maintainers
 
 This includes this doc, but also detailed things about the process that are not necessary for anyone but us. This
 documentation will live in one of two places:
@@ -153,13 +152,13 @@ documentation will live in one of two places:
 2. The individual repo/package to which it applies. If an individual package has more detailed or different needs the
    docs will live along with the repo as decided by the captains.
 
-#### User documentation:
+#### User documentation
 
 This will be produced for the website. While the source content of it may live in other places (for example a repo to
 produce an image for the schedule), the users will be directed to the website to view the current updated version. This
-will also co-locate with documentation about Node.js support and other related support content. 
+will also co-locate with documentation about Node.js support and other related support content.
 
-#### Next steps:
+#### Next steps
 
 - Update the existing LTS doc with more details from this decision
 - Update website pages with more details from this decision
