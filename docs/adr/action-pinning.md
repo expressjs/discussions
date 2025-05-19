@@ -57,5 +57,5 @@ Instead:
 
 ## References
 
-[Keeping your GitHub Actions and workflows secure](https://securitylab.github.com/resources/github-actions-building-blocks/)
-[Mitigating Attack Vectors in GitHub Workflows](https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows/)
+- [Keeping your GitHub Actions and workflows secure](https://securitylab.github.com/resources/github-actions-building-blocks/)
+- [Mitigating Attack Vectors in GitHub Workflows](https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows/)
