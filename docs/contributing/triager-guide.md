@@ -47,26 +47,26 @@ ask questions if required. No question is a bad question!
 
 There are a few cases where members can be removed as triagers:
 
-- Breaking the CoC or project contributor guidelines
-- Abuse or misuse of the role as deemed by the TC
-- Lack of participation for more than 6 months
+* Breaking the CoC or project contributor guidelines
+* Abuse or misuse of the role as deemed by the TC
+* Lack of participation for more than 6 months
 
 If any of these happen we will discuss as a part of the triage portion of the regular TC meetings.
 If you have questions feel free to reach out to any of the TC members.
 
-## Other Helpful Hints:
+## Other Helpful Hints
 
-- Everyone is welcome to attend the [Express Technical Committee Meetings](https://github.com/expressjs/discussions#expressjs-tc-meetings), and as a triager, it might help to get a better idea of what's happening with the project.
-- When exploring the module's functionality there are a few helpful steps:
-  - Turn on `DEBUG=*` (see https://www.npmjs.com/package/debug) to get detailed log information
-  - It is also a good idea to do live debugging to follow the control flow, try using `node --inspect`
-  - It is a good idea to make at least one pass of reading through the entire source
-- When reviewing the list of open issues there are some common types and suggested actions:
-  - New/unattended issues or simple questions: A good place to start
-  - Hard bugs & ongoing discussions: always feel free to chime in and help
-  - Issues that imply gaps in the documentation: open PRs with changes or help the user to do so
-- For recurring issues, it is helpful to create functional examples to demonstrate (publish as gists or a repo)
-- Review and identify the maintainers. If necessary, at-mention one or more of them if you are unsure what to do
-- Make sure all your interactions are professional, welcoming, and respectful to the parties involved.
-- When an issue refers to security concerns, responsibility is delegated to the repository captain or the security group in any public communication. 
-  - If an issue has been open for a long time, the person in charge should be contacted internally through the private Slack chat.
+* Everyone is welcome to attend the [Express Technical Committee Meetings](https://github.com/expressjs/discussions#expressjs-tc-meetings), and as a triager, it might help to get a better idea of what's happening with the project.
+* When exploring the module's functionality there are a few helpful steps:
+  * Turn on `DEBUG=*` (see <https://www.npmjs.com/package/debug>) to get detailed log information
+  * It is also a good idea to do live debugging to follow the control flow, try using `node --inspect`
+  * It is a good idea to make at least one pass of reading through the entire source
+* When reviewing the list of open issues there are some common types and suggested actions:
+  * New/unattended issues or simple questions: A good place to start
+  * Hard bugs & ongoing discussions: always feel free to chime in and help
+  * Issues that imply gaps in the documentation: open PRs with changes or help the user to do so
+* For recurring issues, it is helpful to create functional examples to demonstrate (publish as gists or a repo)
+* Review and identify the maintainers. If necessary, at-mention one or more of them if you are unsure what to do
+* Make sure all your interactions are professional, welcoming, and respectful to the parties involved.
+* When an issue refers to security concerns, responsibility is delegated to the repository captain or the security group in any public communication.
+  * If an issue has been open for a long time, the person in charge should be contacted internally through the private Slack chat.

@@ -18,7 +18,7 @@ Express has traditionally taken a very lax approach to performance. Historically
 and lack of visibility around how changes impact performance. The goal of this working
 group is to centralize discussion so the whole ecosystem of packages can benefit from targeted performance work. The
 scope of this WG would be all active packages in the `expressjs`, `pillarjs` and `jshttp` orgs with an initial focus on
-the ones which are direct dependencies of `express` itself. 
+the ones which are direct dependencies of `express` itself.
 
 **Why do we need a working group?**
 
@@ -52,24 +52,24 @@ We will need to take a few actions to get this started:
 
 ### Relation to STF
 
-Lastly, this kicko-off work is being funded by the STF program. It is a part of our larger work around security
+Lastly, this kick-off work is being funded by the STF program. It is a part of our larger work around security
 improvements for the project. There are two parts of that program which fall under this WG's purview:
 
 1. Milestone 6: Monitor performance across Express and direct dependencies
-  - Owner: @wesleytodd
-  - Delivery Date: Dec 31, 2025
-  - Estimated Budget: €25,200
-2. Milestone 9: Improve performance for Express and critical dependencies
-  - Owner: @wesleytodd & @blakeembrey
-  - Delivery Date: Jun 30, 2026
-  - Estimated Budget: €46,200
+   - Owner: @wesleytodd
+   - Delivery Date: Dec 31, 2025
+   - Estimated Budget: €25,200
+1. Milestone 9: Improve performance for Express and critical dependencies
+   - Owner: @wesleytodd & @blakeembrey
+   - Delivery Date: Jun 30, 2026
+   - Estimated Budget: €46,200
 
 This funding does not mean the work can only be done by the owners, it just means that we are responsible for organizing
 and executing on the deliverables. This is our first attempt at doing a program like this, so feedback is welcome.
 
 ## References
 
-- https://github.com/expressjs/express/pull/6129
-- https://github.com/expressjs/express/issues/5998
+- <https://github.com/expressjs/express/pull/6129>
+- <https://github.com/expressjs/express/issues/5998>
 - open-telemetry/opentelemetry-js-contrib#2437
 - openjs-foundation/infrastructure#5

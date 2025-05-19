@@ -125,11 +125,11 @@ ADR and will be addressed in a separate proposal.
 
 For the existing release lines, we will set the following phase dates:
 
-| Major | CURRENT | ACTIVE | MAINTENANCE | EOL |
-| ----- | ------- | ------ | ----------- | --- |
-| 4.x   |         |        | 2025-04-01 | <sup>[1]</sup> no sooner than 2026-10-01 |
-| 5.x   | 2024-09-11 | 2025-03-31 | <sup>[2]</sup>TBD | <sup>[2]</sup>TBD |
-| 6.x   | <sup>[3]</sup>TBD | | | |
+| Major | CURRENT            | ACTIVE     | MAINTENANCE        | EOL                                      |
+| ----- | ------------------ | ---------- | ------------------ | ---------------------------------------- |
+| 4.x   |                    |            | 2025-04-01         | no sooner than 2026-10-01 <sup>[1]</sup> |
+| 5.x   | 2024-09-11         | 2025-03-31 | TBD <sup>[2]</sup> | TBD <sup>[2]</sup>                       |
+| 6.x   | TBD <sup>[3]</sup> |            |                    |                                          |
 
 1. v4 is a special case, and we may extend MAINTENANCE support. This date is called out to give users confidence we will
    not end-of-life *earlier* than this date.
