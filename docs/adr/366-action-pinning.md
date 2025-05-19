@@ -1,8 +1,8 @@
-# ADR 1396308b-0814-47bd-b8fc-6b3965d31295: GitHub Actions - to pin or not to pin
+# ADR 366: GitHub Actions - to pin or not to pin
 
 ## Status
 
-Proposed <!-- [Proposed | Accepted | Deprecated] -->
+Accepted
 
 ## Submitters
 
