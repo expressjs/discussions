@@ -6,7 +6,7 @@ a README file named `README.md`. The purpose of the README is to:
 - Explain the purpose of the module and how to use it.
 - Act as a landing page (both on GitHub and npmjs.com) for the module to help
   people find it via search. Middleware module READMEs are also incorporated
-  into https://expressjs.com/en/resources/middleware.html.
+  into <https://expressjs.com/en/resources/middleware.html>.
 - Encourage community contributions and participation.
 
 Use the [README template](https://github.com/expressjs/express/wiki/README-template)
@@ -19,6 +19,7 @@ applicable badges, such as npm version/downloads, build status, test coverage,
 and so on. Badges should resolve properly (not display a broken image).
 
 Possible badges include:
+
 - npm version: `[![NPM Version][npm-image]][npm-url]`
 - npm downloads: `[![NPM Downloads][downloads-image]][downloads-url]`
 - test coverage: `[![Test Coverage][coveralls-image]][coveralls-url]`
@@ -44,7 +45,7 @@ use it and how.  Don't just repeat what's in the summary.
 Required. This section is typically just:
 
 ```sh
-$ npm install module-name
+npm install module-name
 ```
 
 But include any other steps or requirements.
@@ -68,11 +69,11 @@ Provide complete API documentation.
 Formatting conventions: Each function is listed in a 3rd-level heading (`###`),
 like this:
 
-```
-### Function_name(arg, options [, optional_arg]  ... )
+```js
+### functionName(arg, options [, optional_arg]  ... )
 ```
 
-**Options objects**
+### Options objects
 
 For arguments that are objects (for example, options object), describe the
 properties in a table, as follows. This matches the formatting used in the

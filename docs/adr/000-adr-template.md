@@ -4,7 +4,7 @@ This is the base template that we use
 
 ```md
 
-# ADR [Number]: [Title of Decision]
+# ADR [PR Number]: [Title of Decision]
 
 ## Status
 
