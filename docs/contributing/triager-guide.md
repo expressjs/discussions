@@ -1,5 +1,13 @@
 # Express Triager Guide
 
+- [Express Triager Guide](#express-triager-guide)
+  - [Issue Triage Process](#issue-triage-process)
+    - [Moving Discussions and Questions to GitHub Discussions](#moving-discussions-and-questions-to-github-discussions)
+  - [Approaches and Best Practices for getting into triage contributions](#approaches-and-best-practices-for-getting-into-triage-contributions)
+  - [Removal of Triage Role](#removal-of-triage-role)
+  - [Other Helpful Hints](#other-helpful-hints)
+  - [General labels](#general-labels)
+
 ## Issue Triage Process
 
 When a new issue or pull request is opened the issue will be labeled with `needs triage`.
@@ -70,3 +78,39 @@ If you have questions feel free to reach out to any of the TC members.
 * Make sure all your interactions are professional, welcoming, and respectful to the parties involved.
 * When an issue refers to security concerns, responsibility is delegated to the repository captain or the security group in any public communication.
   * If an issue has been open for a long time, the person in charge should be contacted internally through the private Slack chat.
+
+## General labels
+
+Express has the following labels available to tag each issue and PR that has been opened
+
+| Name                 | Description                                                                         |
+| -------------------- | ----------------------------------------------------------------------------------- |
+| `bug`                | Denotes confirmed bugs.                                                             |
+| `duplicate`          | A duplicate issue.                                                                  |
+| `enhancement`        | An issue requesting an enhancement.                                                 |
+| `help wanted`        | Extra help may be needed to resolve this issue.                                     |
+| `invalid`            | This is not a proper issue report, request, or question.                            |
+| `question`           | For issues where the issuer is asking something.                                    |
+| `wontfix`            | Marks an issue that will not be fixed.                                              |
+| `docs`               | This issue pertains to the documentation or code comments.                          |
+| `investigate`        | Requires further investigation.                                                     |
+| `tests`              | This issue pertains to the tests themselves.                                        |
+| `deprecate`          | Issue is about a feature that is pending future removal.                            |
+| `release`            | A tracking issue for a specific release milestone.                                  |
+| `ideas`              | Marks an issue which is primarily an idea.                                          |
+| `discuss`            | This issue should remain open to discussion for a while.                            |
+| `needs tests`        | This pull request needs tests to be added.                                          |
+| `needs docs`         | This pull request needs documentation to be added.                                  |
+| `needs rebase`       | This pull request needs rebase to be added.                                         |
+| `deps`               | Marks a dependancy-related issue or pull request.                                   |
+| `tc agenda`          | Issues that will be discussed in the TC meetings.                                   |
+| `top priority`       | Issues that will be discussed in the working sessions.                              |
+| `fast track`         | PRs that are quick changes, like fixing a spelling mistake.                         |
+| `meta`               | Issues and PRs related to the general management of the project.                    |
+| `semver-major`       | PRs that have a breaking change.                                                    |
+| `semver-minor`       | PRs that add a new feature and do not break compatibility.                          |
+| `semver-patch`       | PRs that fix a bug in the code without breaking compatibility.                      |
+| `feedback`           | PRs that require feedback from the community.                                       |
+| `require-triage`     | Issues and PRs that have been opened but have not been reviewed for the first time. |
+| `awaiting more info` | Issues that require more information for better understanding.                      |
+| `good first issue`   | Issues suitable for newcomers to fix                                                |
