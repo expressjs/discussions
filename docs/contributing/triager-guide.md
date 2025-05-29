@@ -97,7 +97,6 @@ Express has the following labels available to tag each issue and PR that has bee
 | `tests`              | This issue pertains to the tests themselves.                                        |
 | `deprecate`          | Issue is about a feature that is pending future removal.                            |
 | `release`            | A tracking issue for a specific release milestone.                                  |
-| `ideas`              | Marks an issue which is primarily an idea.                                          |
 | `discuss`            | This issue should remain open to discussion for a while.                            |
 | `needs tests`        | This pull request needs tests to be added.                                          |
 | `needs docs`         | This pull request needs documentation to be added.                                  |
