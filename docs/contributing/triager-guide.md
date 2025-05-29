@@ -88,7 +88,7 @@ Express has the following labels available to tag each issue and PR that has bee
 | `bug`                | Denotes confirmed bugs.                                                             |
 | `duplicate`          | A duplicate issue.                                                                  |
 | `enhancement`        | An issue requesting an enhancement.                                                 |
-| `help wanted`        | Extra help may be needed to resolve this issue.                                     |
+| `help wanted`        | Help from the community is requested to assist in resolving this issue.             |
 | `invalid`            | This is not a proper issue report, request, or question.                            |
 | `question`           | For issues where the issuer is asking something.                                    |
 | `wontfix`            | Marks an issue that will not be fixed.                                              |
