@@ -31,7 +31,7 @@ jobs:
           issueTitle: '<%= date.toFormat("yyyy-MM-dd") %> Express Working Session'
           token: ${{ secrets.GITHUB_TOKEN }}
           orgs: expressjs,pillarjs,jshttp
-          agendaLabel: 'top priority'
+          agendaLabel: 'working session'
           meetingLabels: 'meeting'
           # Converting the second time slot to a "working session"
           # https://github.com/expressjs/discussions/issues/195#issuecomment-1973732769
