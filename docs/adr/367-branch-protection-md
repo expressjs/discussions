@@ -88,8 +88,8 @@ This decision strikes a balance between **security and agility**, using defaults
 ### Phase 1: Rollout to Active Repos
 
 - Identify all active repositories
-- Apply default protection rules using GitHub API or organization policies
 - Notify repo maintainers of the change
+- Apply default protection rules using GitHub API or organization policies
 
 ### Phase 2: Harden Governance
 
