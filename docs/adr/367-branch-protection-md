@@ -40,7 +40,7 @@ Optional rules:
 
 ### Exceptions:
 
-- Tc members and repo captains will retain the ability to **temporarily bypass branch protections** in critical scenarios:
+- TC members and Repo Captains will retain the ability to **temporarily bypass branch protections** in critical scenarios:
   - Security fixes that require immediate deployment
   - Emergency production incidents
 - These exceptions must be documented in the relevant PR or release communication
