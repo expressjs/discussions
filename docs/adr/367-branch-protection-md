@@ -1,0 +1,106 @@
+# ADR 367: Enforce Branch Protection by Default Across All Repositories
+
+## Status
+
+Accepted
+
+## Submitters
+
+- @UlisesGascon
+
+## Decision Owners
+
+- @expressjs/express-tc
+
+## Context
+
+Branch protection rules in GitHub enforce key policies—such as required reviews, status checks, and linear history—that help safeguard critical branches like `main`, `master` or version specific. Despite the clear benefits, adoption across repositories has been inconsistent, leading to:
+
+- Risk of direct or accidental pushes to protected branches
+- Increased likelihood of unreviewed or unsafe code merges
+- Reduced ability to enforce standardized development workflows
+
+GitHub allows fine-grained control over branch protections, including the ability for administrators (tc members, repo captains...) to bypass rules when needed (e.g., urgent hotfixes or security patches).
+
+This decision aims to normalize a secure-by-default stance while maintaining flexibility for urgent, responsible exceptions.
+
+## Decision
+
+**Branch protection rules will be enabled by default on all repositories.**
+
+Key rules to be applied:
+
+- Protect the `main`, `master`, and `v*` branches
+- Require pull request reviews before merging (at least 1 approval)
+- Require all status checks to pass before merging
+
+Optional rules:
+- Enforce linear history (disable merge commits, allow squash/rebase)
+- Restrict who can push directly to the protected branches
+
+### Exceptions:
+
+- Tc members and repo captains will retain the ability to **temporarily bypass branch protections** in critical scenarios:
+  - Security fixes that require immediate deployment
+  - Emergency production incidents
+- These exceptions must be documented in the relevant PR or release communication
+
+## Rationale
+
+### Alternatives Considered:
+
+- **Opt-in branch protection**: Rejected due to inconsistent adoption and higher risk of accidental pushes.
+- **No admin bypass**: Rejected because it adds overhead in urgent situations and may block time-sensitive fixes.
+
+### Pros and Cons:
+
+**Pros:**
+
+- Stronger default security posture
+- Better alignment with compliance and audit requirements
+- Reduced chance of unsafe or accidental changes
+
+**Cons:**
+
+- May slow down development for repos lacking automation (e.g., CI failures delaying merges)
+- Risk of misuse of admin bypass unless monitored
+
+**Why is this the best option?**
+
+This decision strikes a balance between **security and agility**, using defaults that promote safe practices while preserving escape hatches for legitimate exceptions.
+
+## Consequences
+
+### Positive Impact:
+
+- Improved consistency and safety across all codebases
+- Reduced likelihood of accidental or unreviewed code merges
+- Easier to audit and enforce development standards across org
+
+### Negative Impact:
+
+- Initial friction for projects with a single captain or no commiters (at least 1 approval per PR)
+- Possible misuse of admin bypass if not documented
+
+
+## Implementation
+
+### Phase 1: Rollout to Active Repos
+
+- Identify all active repositories
+- Apply default protection rules using GitHub API or organization policies
+- Notify repo maintainers of the change
+
+### Phase 2: Harden Governance
+
+- Periodic review of admin bypass usage using the Scorecard Monitor ([ref](https://github.com/expressjs/security-wg/pull/70))
+- Enforce admin bypass documentation for emergency changes
+
+## References
+
+- [GitHub Docs: About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
+- [OSSF Scorecard: Branch Protection](https://github.com/ossf/scorecard/blob/main/docs/checks.md#branch-protection)
+
+## Changelog
+
+- **[2025-06-03]**: @UlisesGascon – Initial proposal and adoption for org-wide branch protection default
