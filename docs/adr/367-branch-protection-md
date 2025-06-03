@@ -79,7 +79,7 @@ This decision strikes a balance between **security and agility**, using defaults
 
 ### Negative Impact:
 
-- Initial friction for projects with a single captain or no commiters (at least 1 approval per PR)
+- Initial friction for projects with a single captain or no committers (at least 1 approval per PR)
 - Possible misuse of admin bypass if not documented
 
 
