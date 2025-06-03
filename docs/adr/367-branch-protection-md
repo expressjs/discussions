@@ -30,7 +30,7 @@ This decision aims to normalize a secure-by-default stance while maintaining fle
 
 Key rules to be applied:
 
-- Protect the `main`, `master`, and `v*` branches
+- Protect release branches, this includes: `main`, `master`, and `v*` branches/tags
 - Require pull request reviews before merging (at least 1 approval)
 - Require all status checks to pass before merging
 
