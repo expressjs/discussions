@@ -36,7 +36,7 @@ Key rules to be applied:
 
 Optional rules:
 - Enforce linear history (disable merge commits, allow squash/rebase)
-- Restrict who can push directly to the protected branches
+- Restrict who can push directly to the protected branches to people who can release (captains, TC, etc)
 
 ### Exceptions:
 
