@@ -14,7 +14,7 @@ Accepted
 
 ## Context
 
-Branch protection rules in GitHub enforce key policies—such as required reviews, status checks, and linear history—that help safeguard critical branches like `main`, `master` or version specific. Despite the clear benefits, adoption across repositories has been inconsistent, leading to:
+Branch protection rules in GitHub enforce key policies—such as required reviews, status checks, and linear history—that help safeguard critical branches like `main`, `master` or version branches/tags. Despite the clear benefits, adoption across repositories has been inconsistent, leading to:
 
 - Risk of direct or accidental pushes to protected branches
 - Increased likelihood of unreviewed or unsafe code merges
