@@ -43,6 +43,9 @@ Optional rules:
 - TC members and Repo Captains will retain the ability to **temporarily bypass branch protections** in critical scenarios:
   - Security fixes that require immediate deployment
   - Emergency production incidents
+  - When CI is clearly broken for unrelated reasons
+  - To fix history when necessary
+  - When a reasonable case is made where the exception makes sense
 - These exceptions must be documented in the relevant PR or release communication
 
 ## Rationale
