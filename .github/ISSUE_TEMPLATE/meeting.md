@@ -43,7 +43,7 @@ This meeting is open for anyone who wants to attend. Reminder to follow our [Cod
 
 * link for participants: <%= meetingLink %>
 
-<hr>
+---
 
 Please use the following emoji reactions in this post to indicate your
 availability.
