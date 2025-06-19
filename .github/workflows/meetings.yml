@@ -6,6 +6,11 @@ on:
       - master
   schedule:
     - cron: '0 0 * * *'
+
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   meeting:
     runs-on: ubuntu-latest
