@@ -1,9 +1,6 @@
 name: Schedule Meetings
 on:
-  pull_request:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
