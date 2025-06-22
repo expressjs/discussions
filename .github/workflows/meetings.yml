@@ -1,9 +1,10 @@
 name: Schedule Meetings
 on:
+  workflow_dispatch:
   pull_request:
-  push:
-    branches:
-      - master
+      paths:
+        - '.github/workflows/meetings.yml'
+        - '.github/ISSUE_TEMPLATE/meeting.md'
   schedule:
     - cron: '0 0 * * *'
 
