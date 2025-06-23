@@ -157,7 +157,7 @@ The list can be found at [https://github.com/expressjs/discussions/blob/HEAD/doc
 
 ## Inactivity and Emeritus Policy for Any Role
 
-To support the health and continuity of the project, all individuals holding a role within the community (Triager, Committer, Project Captain, or TC member) are expected to maintain active participation.
+To support the health and continuity of the project, all individuals holding a role within the community (Triager, Committer, Project Captain, or TC member) are encouraged to maintain active participation.
 
 Inactivity is defined as the absence of meaningful involvement in the project—such as contributions, code reviews, triage, meeting attendance, or discussion participation—for a continuous period of 6 months.
 
