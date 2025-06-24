@@ -21,7 +21,7 @@
   - committers: @bjohansebas, @Phillip9587
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
   - captains: @crandmck, @jonchurch, @bjohansebas
-  - committers: @carlosstenzel, @chrisdel101
+  - committers: @carlosstenzel, @chrisdel101, @ShubhamOulkar
 - [`expressjs/flash`](https://github.com/expressjs/flash): @ulisesGascon
 - [`expressjs/generator`](https://github.com/expressjs/generator): @wesleytodd
 - [`expressjs/method-override`](https://github.com/expressjs/method-override): @ulisesGascon
