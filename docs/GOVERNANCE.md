@@ -165,8 +165,7 @@ Inactivity is defined as the absence of meaningful involvement in the project—
 Anyone may request a temporary leave from active participation due to personal or professional reasons. In such cases, the individual should inform the relevant team or the Technical Committee (TC). During this time, the inactivity policy is paused, and the individual will not be flagged as inactive.
 
 ### Inactivity Process
-- If no exception is communicated and inactivity is detected, the individual will be notified and invited to resume participation within a reasonable timeframe.
-- If participation is not resumed, the individual may be transitioned to an emeritus role that reflects their past contributions.
+- If someone is deemed inactive, the individual may be transitioned to an emeritus role that reflects their past contributions. A best effort will be made to inform them that this has occurred. They may request to be reinstated when they are ready to be active again. 
 - The emeritus status helps preserve a clear record of contributors who have meaningfully shaped the project over time.
 
 ### Accountability
