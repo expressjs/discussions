@@ -51,8 +51,8 @@ Section Intentionally Left Blank
 ## Section 3: Express Governing Body
 
 The Express project is managed by the Technical Committee ("TC").
-Members can be added to the TC at any time. Only current members of the TC may
-nominate another committer for TC membership and the TC uses its standard consensus
+Members can be added to the TC at any time. Any committer can privately nominate
+another committer to the TC, preferably slack or alternatively by email, and the TC uses its standard consensus
 seeking process to evaluate whether or not to add this new member.
 Members who do not participate consistently at the level of a majority
 of the other members are expected to resign.
