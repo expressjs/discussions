@@ -26,8 +26,8 @@ This proposal aims to establish a dedicated team responsible for maintaining Typ
 
 - **Are there any existing issues/discussions/pull requests related to this?**:
 
-   - https://github.com/expressjs/discussions/issues/192
-   - https://github.com/expressjs/express/issues/2818
+  - <https://github.com/expressjs/discussions/issues/192>
+  - <https://github.com/expressjs/express/issues/2818>
 
 ## Decision
 
@@ -61,12 +61,11 @@ The proposed working group provides a focused avenue for contributors who are in
 
 ## References
 
-- https://github.com/expressjs/discussions/issues/192
-- https://github.com/expressjs/express/issues/2818
+- <https://github.com/expressjs/discussions/issues/192>
+- <https://github.com/expressjs/express/issues/2818>
 
 ## Changelog
 
 Track changes or updates to this ADR over time. Include the date, author, and a brief description of each change.
 
 - **[2025-05-28]**: [@bjohansebas] - Initial draft
-
