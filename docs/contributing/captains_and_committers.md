@@ -55,7 +55,9 @@
 - [`jshttp/mime-db`](https://github.com/jshttp/mime-db): @blakeembrey, @UlisesGascon
 - [`jshttp/mime-types`](https://github.com/jshttp/mime-types): @blakeembrey, @UlisesGascon
 - [`jshttp/negotiator`](https://github.com/jshttp/negotiator): @blakeembrey
-- [`jshttp/on-finished`](https://github.com/jshttp/on-finished): @wesleytodd, @ulisesGascon
+- [`jshttp/on-finished`](https://github.com/jshttp/on-finished):
+  - Captains: @wesleytodd, @ulisesGascon
+  - Committers: @Phillip9587
 - [`jshttp/on-headers`](https://github.com/jshttp/on-headers): @blakeembrey
 - [`jshttp/proxy-addr`](https://github.com/jshttp/proxy-addr): @wesleytodd, @ulisesGascon
 - [`jshttp/range-parser`](https://github.com/jshttp/range-parser): @blakeembrey
