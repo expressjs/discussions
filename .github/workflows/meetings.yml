@@ -26,7 +26,7 @@ jobs:
           meetingLabels: 'meeting'
           # https://github.com/expressjs/discussions/issues/195#issuecomment-1973732769
           # Starting on 2024-03-18 at 9pm UTC (2024-03-18T21:00:00.0Z) with a period of 2 weeks (P2W)
-          schedules: '2024-03-18T21:00:00.0Z/P2W'
+          schedules: '2024-03-18T19:00:00.0Z/P2W'
           createWithin: 'P1W'
           meetingLink: 'https://zoom-lfx.platform.linuxfoundation.org/meeting/95266714809?password=f37cff1b-cb3a-4a21-9425-210e4714c72e'
           issueTemplate: 'meeting.md'
