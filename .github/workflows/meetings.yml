@@ -41,8 +41,8 @@ jobs:
           meetingLabels: 'meeting'
           # Converting the second time slot to a "working session"
           # https://github.com/expressjs/discussions/issues/195#issuecomment-1973732769
-          # Starting on 2024-03-27 at 9pm UTC (2024-03-27T21:00:00.0Z) with a period of 2 weeks (P2W)
-          schedules: '2024-03-27T21:00:00.0Z/P2W'
+          # Starting on 2024-03-27 at 6pm UTC (2024-03-27T18:00:00.0Z) with a period of 2 weeks (P2W)
+          schedules: '2024-03-27T18:00:00.0Z/P2W'
           createWithin: 'P1W'
           meetingLink: 'https://zoom-lfx.platform.linuxfoundation.org/meeting/95258037175?password=07aad89d-ff43-45df-9b28-f437e167a0b9'
           issueTemplate: 'meeting.md'
