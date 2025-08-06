@@ -1,8 +1,4 @@
-## Date/Time
-
-| Timezone | Date/Time |
-|----------|-----------|
-<%= [
+<% const timezones = [
   'America/Los_Angeles',
   'America/Denver',
   'America/Chicago',
@@ -14,12 +10,31 @@
   'Asia/Shanghai',
   'Asia/Tokyo',
   'Australia/Sydney'
-].map((zone) => {
-  return `| ${zone} | ${date.setZone(zone).toFormat('EEE dd-MMM-yyyy HH:mm (hh:mm a)')} |`
+]; %>
+
+## Date/Time
+
+| Timezone | Date/Time |
+|----------|-----------|
+<%= timezones.map((zone) => {
+  const zonedDate = date.toZonedDateTimeISO(zone)
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    weekday: 'short',
+    month: 'short',
+    day: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+    timeZone: zone
+  })
+  const formattedDate = formatter.format(new Date(zonedDate.epochMilliseconds))
+  return `| ${zone} | ${formattedDate} |`
 }).join('\n') %>
 
 Or in your local time:
-* https://www.timeanddate.com/worldclock/?iso=<%= date.toFormat("yyyy-MM-dd'T'HH:mm:ss") %>
+
+* https://www.timeanddate.com/worldclock/?iso=<%= date.toZonedDateTimeISO('UTC').toPlainDateTime().toString() %>
 
 ## Agenda
 
