@@ -34,7 +34,7 @@
 
 Or in your local time:
 
-* https://www.timeanddate.com/worldclock/?iso=<%= date.toZonedDateTimeISO('UTC').toPlainDateTime().toString() %>
+* https://www.timeanddate.com/worldclock/fixedtime.html?msg=<%= encodeURIComponent(title) %>&iso=<%= date.toZonedDateTimeISO('UTC').toPlainDateTime().toString().slice(0, 16).replace(/[-:]/g, '') %>&p1=1440&ah=1
 
 ## Agenda
 
