@@ -72,6 +72,7 @@
   - committers: @Phillip9587
 - [`pillarjs/hbs`](https://github.com/pillarjs/hbs): @ulisesGascon
 - [`pillarjs/multiparty`](https://github.com/pillarjs/multiparty): @blakeembrey
+- [`pillarjs/iconv-lite`](https://github.com/pillarjs/iconv-lite): @ashtuchkin, @bjohansebas (npm: `@bsebas`)
 - [`pillarjs/parseurl`](https://github.com/pillarjs/parseurl): @blakeembrey
 - [`pillarjs/path-to-regexp`](https://github.com/pillarjs/path-to-regexp): @blakeembrey
 - [`pillarjs/request`](https://github.com/pillarjs/request): @wesleytodd
