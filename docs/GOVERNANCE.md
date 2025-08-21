@@ -163,15 +163,18 @@ To support the health and continuity of the project, all individuals holding a r
 Inactivity is defined as the absence of meaningful involvement in the project—such as contributions, code reviews, triage, meeting attendance, or discussion participation—for a continuous period of 6 months.
 
 ### Exceptions
+
 Anyone may request a temporary leave from active participation due to personal or professional reasons. In such cases, the individual should inform the relevant team or the Technical Committee (TC). During this time, the inactivity policy is paused, and the individual will not be flagged as inactive.
 
 ### Inactivity Process
-- If someone is deemed inactive, the individual may be transitioned to an emeritus role that reflects their past contributions. A best effort will be made to inform them that this has occurred. They may request to be reinstated when they are ready to be active again. 
-- The emeritus status helps preserve a clear record of contributors who have meaningfully shaped the project over time.
+
+* If someone is deemed inactive, the individual may be transitioned to an emeritus role that reflects their past contributions. A best effort will be made to inform them that this has occurred. They may request to be reinstated when they are ready to be active again.
+* The emeritus status helps preserve a clear record of contributors who have meaningfully shaped the project over time.
 
 ### Accountability
-- The Technical Committee (TC) and the respective captains of each package/team are responsible for monitoring activity levels and enforcing this policy fairly and transparently, in coordination with other relevant teams.
-- In case of disagreement, the situation can be discussed and resolved by consensus within the TC or appropriate team.
+
+* The Technical Committee (TC) and the respective captains of each package/team are responsible for monitoring activity levels and enforcing this policy fairly and transparently, in coordination with other relevant teams.
+* In case of disagreement, the situation can be discussed and resolved by consensus within the TC or appropriate team.
 
 ## Developer's Certificate of Origin 1.1
 
