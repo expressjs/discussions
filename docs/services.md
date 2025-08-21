@@ -9,7 +9,7 @@ This project relies on the following third-party services:
 - **DNS**: LFX
   - **Domain Names**: expressjs.com
 - **Password Management:** 1Password
-- **Funding Management:** 
+- **Funding Management:**
   - [Open Collective](https://opencollective.com/express)
   - Thanks.dev
 - **Translations Management:** Crowdin
@@ -20,7 +20,7 @@ This project relies on the following third-party services:
 - **Code Repository:** GitHub (expressjs, pillarjs, jshttp)
 - **CI/CD:** GitHub Actions
 - **Website Preview:** Netlify
-- **Artifact Storage:** 
+- **Artifact Storage:**
   - Docker Hub
   - NPM (expressjs, express, jshttp, pillarjs)
 
