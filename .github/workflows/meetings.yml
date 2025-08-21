@@ -1,55 +1,45 @@
 name: Schedule Meetings
 on:
+  workflow_dispatch:
   pull_request:
-  push:
-    branches:
-      - master
+      paths:
+        - '.github/workflows/meetings.yml'
+        - '.github/ISSUE_TEMPLATE/meeting.md'
   schedule:
     - cron: '0 0 * * *'
+
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   meeting:
     runs-on: ubuntu-latest
     steps:
       - name: Technical Committee
-        uses: 'pkgjs/meet@v0'
+        uses: 'pkgjs/meet@v1'
         with:
-          issueTitle: '<%= date.toFormat("yyyy-MM-dd") %> Express TC Meeting'
+          issueTitle: '<%= date.toZonedDateTimeISO("UTC").toPlainDate().toString() %> Express TC Meeting'
           token: ${{ secrets.GITHUB_TOKEN }}
           orgs: expressjs,pillarjs,jshttp
           agendaLabel: 'tc agenda'
           meetingLabels: 'meeting'
-          # https://github.com/expressjs/discussions/issues/195#issuecomment-1973732769
-          # Starting on 2024-03-18 at 9pm UTC (2024-03-18T21:00:00.0Z) with a period of 2 weeks (P2W)
-          schedules: '2024-03-18T21:00:00.0Z/P2W'
+          # Monday 1 PM America/Chicago with a period of 2 weeks (P2W)
+          schedules: '2025-08-04T13:00:00.0[America/Chicago]/P2W'
           createWithin: 'P1W'
           meetingLink: 'https://zoom-lfx.platform.linuxfoundation.org/meeting/95266714809?password=f37cff1b-cb3a-4a21-9425-210e4714c72e'
           issueTemplate: 'meeting.md'
 
       - name: Working Session
-        uses: 'pkgjs/meet@v0'
+        uses: 'pkgjs/meet@v1'
         with:
-          issueTitle: '<%= date.toFormat("yyyy-MM-dd") %> Express Working Session'
+          issueTitle: '<%= date.toZonedDateTimeISO("UTC").toPlainDate().toString() %> Express Working Session'
           token: ${{ secrets.GITHUB_TOKEN }}
           orgs: expressjs,pillarjs,jshttp
           agendaLabel: 'top priority'
           meetingLabels: 'meeting'
-          # Converting the second time slot to a "working session"
-          # https://github.com/expressjs/discussions/issues/195#issuecomment-1973732769
-          # Starting on 2024-03-27 at 9pm UTC (2024-03-27T21:00:00.0Z) with a period of 2 weeks (P2W)
-          schedules: '2024-03-27T21:00:00.0Z/P2W'
+          # Wednesday 1 PM America/Chicago with a period of 2 weeks (P2W)
+          schedules: '2025-08-13T13:00:00.0[America/Chicago]/P2W'
           createWithin: 'P1W'
           meetingLink: 'https://zoom-lfx.platform.linuxfoundation.org/meeting/95258037175?password=07aad89d-ff43-45df-9b28-f437e167a0b9'
           issueTemplate: 'meeting.md'
-      - name: Triage Working Session
-        uses: 'pkgjs/meet@v0'
-        with:
-          issueTitle: '<%= date.toFormat("yyyy-MM-dd") %> Express Triage Session'
-          token: ${{ secrets.GITHUB_TOKEN }}
-          orgs: expressjs,pillarjs,jshttp
-          agendaLabel: 'triage-meeting'
-          meetingLabels: 'meeting'
-          # https://github.com/expressjs/discussions/issues/276#issuecomment-2399741373
-          # Starting on 2025-01-27 at 8pm UTC (2025-01-27T20:00:00.0Z) with a period of 4 weeks (P4W)
-          schedules: '2025-01-27T20:00:00.0Z/P4W'
-          createWithin: 'P1W'
-          issueTemplate: 'meeting-triage.md'

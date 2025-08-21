@@ -30,7 +30,7 @@ Express is made of many modules spread between three GitHub Orgs:
 
 Section Intentionally Left Blank
 
-## Section 2: Relationship with OpenJS Foundation CPC.
+## Section 2: Relationship with OpenJS Foundation CPC
 
 Technical leadership for the projects within the OpenJS Foundation is
 delegated to the projects through their project charters by the OpenJS
