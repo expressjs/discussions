@@ -2,13 +2,12 @@
 
 This document contains the technical aspects of the Express release process. The
 intended audience is those who have been authorized by the Express Technical
-Committee (TC) to create, promote and sign official release builds  for any
+Committee (TC) to create, promote and sign official release builds for any
 package governed by Express.
 
 ## Who can make releases?
 
-Release authorization is given by the Express TC or by the captains of the package
-to be released. Once authorized, an individual must have the following access permissions:
+According to project governance, only package Captains or members of the Technical Committee (TC) are permitted to make releases. Captains have the freedom to make releases for their own package whenever necessary, while TC members may make releases for any package as needed.
 
 ### 1. Github release access
 
