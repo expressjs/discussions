@@ -1,27 +1,25 @@
 # Express Release Process
 
-This document describes the technical and governance process for publishing official Express releases. It is intended for those authorized by the Technical Committee (TC) or the package Captains to create, promote, and sign official builds for any package governed by Express.
+This document contains the technical aspects of the Express release process. The
+intended audience is those who have been authorized by the Express Technical
+Committee (TC) to create, promote and sign official release builds  for any
+package governed by Express.
 
 ## Who can make releases?
 
-According to project governance, only package Captains or members of the Technical Committee (TC) are permitted to make releases. Captains have the freedom to make releases for their own package whenever necessary, while TC members may make releases for any package as needed.
+Release authorization is given by the Express TC or by the captains of the package
+to be released. Once authorized, an individual must have the following access permissions:
 
-## Release requirements
+### 1. Github release access
 
-To ensure transparency and community participation, the following requirements must be met for every release:
+The person making the release must be either the package captain or a member of the TC in
+order to have sufficient permissions to do the work.
 
-- A pull request (PR) must be opened to merge the designated release branch, clearly displaying all changes included in the release.
-- The PR must remain open for a reasonable period to allow for review and comments from contributors in different time zones.
-- A release cannot be published if there are objections from any contributor; all concerns must be addressed before proceeding.
+### 2. npmjs.com release access
 
-**Exception for security releases:**
-
-The process for security releases is defined in the Express Security Working Group's incident response plan, located at:
-<https://github.com/expressjs/security-wg/blob/main/docs/incident_response_plan.md>
-
-Please refer to that document for all procedures and requirements related to security releases.
-
-The release process should always be transparent and well documented. If there are unresolved objections or controversy, the matter should be escalated to the TC for resolution.
+The individual making the release will need to be made an owner on the
+package on npmjs.com so they are able to publish the release
+(see Step 6).
 
 ## How to publish a release
 
@@ -135,7 +133,7 @@ git merge --ff-only <proposal-branch>
 > merge. Using a fast-forward merge keeps the history clean as it does
 > not introduce merge commits.
 
-### Step 3. Update History.md and package.json to the new version
+### Step 3. Update the History.md and package.json to the new version number
 
 The changes so far for the release should already be documented under the
 "unreleased" section at the top of the History.md file, as per the usual
@@ -195,12 +193,7 @@ npm publish
 > The version number to publish will be picked up automatically from
 > package.json.
 
-### Step 7. Update documentation and communicate the release
-
-The Captain or TC member responsible for the release should ensure that the official documentation and communication channels reflect the new release. This includes:
-
-1. Updating the documentation website (<https://expressjs.com/>) as described below.
-2. Communicating the release in official channels (e.g., issues, forums, Slack) for transparency and traceability.
+### Step 7. Update documentation website
 
 The documentation website <https://expressjs.com/> documents the current release version in various places. To update these, follow these steps:
 
