@@ -1,8 +1,8 @@
-# ADR 1396308b-0814-47bd-b8fc-6b3965d31295: GitHub Actions - to pin or not to pin
+# ADR 366: GitHub Actions - to pin or not to pin
 
 ## Status
 
-Proposed <!-- [Proposed | Accepted | Deprecated] -->
+Accepted
 
 ## Submitters
 
@@ -57,5 +57,5 @@ Instead:
 
 ## References
 
-[Keeping your GitHub Actions and workflows secure](https://securitylab.github.com/resources/github-actions-building-blocks/)
-[Mitigating Attack Vectors in GitHub Workflows](https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows/)
+- [Keeping your GitHub Actions and workflows secure](https://securitylab.github.com/resources/github-actions-building-blocks/)
+- [Mitigating Attack Vectors in GitHub Workflows](https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows/)

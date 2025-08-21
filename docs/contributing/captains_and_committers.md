@@ -1,14 +1,14 @@
-### Active Projects and members
+# Active projects and members
 
 - [`expressjs/badgeboard`](https://github.com/expressjs/badgeboard): @wesleytodd
 - [`expressjs/basic-auth-connect`](https://github.com/expressjs/basic-auth-connect): @ulisesGascon
-- [`expressjs/body-parser`](https://github.com/expressjs/body-parser): 
+- [`expressjs/body-parser`](https://github.com/expressjs/body-parser):
   - Captains: @wesleytodd, @jonchurch, @ulisesGascon
   - Committers: @Phillip9587
 - [`expressjs/codemod`](https://github.com/expressjs/codemod): @bjohansebas (npm: `@bsebas`), @kjugi (npm: `@filip.kudla`)
 - [`expressjs/compression`](https://github.com/expressjs/compression):
-    - captains: @UlisesGascon
-    - committers: @bjohansebas
+  - captains: @UlisesGascon
+  - committers: @bjohansebas
 - [`expressjs/connect-multiparty`](https://github.com/expressjs/connect-multiparty): @ulisesGascon
 - [`expressjs/cookie-parser`](https://github.com/expressjs/cookie-parser): @wesleytodd, @UlisesGascon
 - [`expressjs/cookie-session`](https://github.com/expressjs/cookie-session): @ulisesGascon
@@ -17,11 +17,11 @@
 - [`expressjs/errorhandler`](https://github.com/expressjs/errorhandler): @ulisesGascon
 - [`expressjs/express-paginate`](https://github.com/expressjs/express-paginate): @ulisesGascon
 - [`expressjs/express`](https://github.com/expressjs/express):
-    - captains: @wesleytodd, @ulisesGascon
-    - committers: @bjohansebas, @Phillip9587
+  - captains: @wesleytodd, @ulisesGascon
+  - committers: @bjohansebas, @Phillip9587
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
-    - captains: @crandmck, @jonchurch, @bjohansebas
-    - committers: @carlosstenzel, @chrisdel101
+  - captains: @crandmck, @jonchurch, @bjohansebas
+  - committers: @carlosstenzel, @chrisdel101
 - [`expressjs/flash`](https://github.com/expressjs/flash): @ulisesGascon
 - [`expressjs/generator`](https://github.com/expressjs/generator): @wesleytodd
 - [`expressjs/method-override`](https://github.com/expressjs/method-override): @ulisesGascon
@@ -33,7 +33,7 @@
 - [`expressjs/serve-favicon`](https://github.com/expressjs/serve-favicon): @ulisesGascon
 - [`expressjs/serve-index`](https://github.com/expressjs/serve-index): @ulisesGascon
 - [`expressjs/serve-static`](https://github.com/expressjs/serve-static): @ulisesGascon
-- [`expressjs/session`](https://github.com/expressjs/session): 
+- [`expressjs/session`](https://github.com/expressjs/session):
   - Captains: @ulisesGascon
   - Committers: @bjohansebas
 - [`expressjs/statusboard`](https://github.com/expressjs/statusboard): @wesleytodd
@@ -55,7 +55,9 @@
 - [`jshttp/mime-db`](https://github.com/jshttp/mime-db): @blakeembrey, @UlisesGascon
 - [`jshttp/mime-types`](https://github.com/jshttp/mime-types): @blakeembrey, @UlisesGascon
 - [`jshttp/negotiator`](https://github.com/jshttp/negotiator): @blakeembrey
-- [`jshttp/on-finished`](https://github.com/jshttp/on-finished): @wesleytodd, @ulisesGascon
+- [`jshttp/on-finished`](https://github.com/jshttp/on-finished):
+  - Captains: @wesleytodd, @ulisesGascon
+  - Committers: @Phillip9587
 - [`jshttp/on-headers`](https://github.com/jshttp/on-headers): @blakeembrey
 - [`jshttp/proxy-addr`](https://github.com/jshttp/proxy-addr): @wesleytodd, @ulisesGascon
 - [`jshttp/range-parser`](https://github.com/jshttp/range-parser): @blakeembrey
@@ -66,8 +68,8 @@
 - [`pillarjs/csrf`](https://github.com/pillarjs/csrf): @ulisesGascon
 - [`pillarjs/encodeurl`](https://github.com/pillarjs/encodeurl): @blakeembrey
 - [`pillarjs/finalhandler`](https://github.com/pillarjs/finalhandler):
-    - captains: @wesleytodd, @ulisesGascon
-    - committers: @Phillip9587
+  - captains: @wesleytodd, @ulisesGascon
+  - committers: @Phillip9587
 - [`pillarjs/hbs`](https://github.com/pillarjs/hbs): @ulisesGascon
 - [`pillarjs/multiparty`](https://github.com/pillarjs/multiparty): @blakeembrey
 - [`pillarjs/parseurl`](https://github.com/pillarjs/parseurl): @blakeembrey
@@ -78,6 +80,6 @@
 - [`pillarjs/send`](https://github.com/pillarjs/send): @blakeembrey
 - [`pillarjs/understanding-csrf`](https://github.com/pillarjs/understanding-csrf): @ulisesGascon
 
-### Current Initiative Captains
+## Current Initiative Captains
 
 - Triage team [ref](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
