@@ -7,7 +7,10 @@ package governed by Express.
 
 ## Who can make releases?
 
-According to project governance, only package Captains or members of the Technical Committee (TC) are permitted to make releases. Captains have the freedom to make releases for their own package whenever necessary, while TC members may make releases for any package as needed.
+According to project governance, only package Captains or members of the Technical
+Committee (TC) are permitted to make releases. Captains have the freedom to make releases
+for their own package whenever necessary, while TC members may make releases for any package
+as needed.
 
 ### 1. Github release access
 
