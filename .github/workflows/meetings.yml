@@ -38,8 +38,8 @@ jobs:
           orgs: expressjs,pillarjs,jshttp
           agendaLabel: 'top priority'
           meetingLabels: 'meeting'
-          # Wednesday 1 PM America/Chicago with a period of 2 weeks (P2W)
-          schedules: '2025-08-13T13:00:00.0[America/Chicago]/P2W'
+          # Wednesday 3 PM America/Chicago with a period of 2 weeks (P2W)
+          schedules: '2025-08-13T15:00:00.0[America/Chicago]/P2W'
           createWithin: 'P1W'
           meetingLink: 'https://zoom-lfx.platform.linuxfoundation.org/meeting/95258037175?password=07aad89d-ff43-45df-9b28-f437e167a0b9'
           issueTemplate: 'meeting.md'
