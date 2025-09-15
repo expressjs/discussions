@@ -1,14 +1,8 @@
----
-name: Funding Use Guidelines
-description: Guidelines for spending project funding
-labels: ADR
----
-
-# ADR [Number]: Funding Use Guidelines
+# ADR #299: Funding Use Guidelines
 
 ## Status
 
-Proposed
+Accepted
 
 ## Submitters
 

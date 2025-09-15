@@ -3,7 +3,7 @@
 This document contains the technical aspects of the Express release process. The
 intended audience is those who have been authorized by the Express Technical
 Committee (TC) to create, promote and sign official release builds for Express,
-as npm packages hosted on https://npmjs.com/package/express.
+as npm packages hosted on <https://npmjs.com/package/express>.
 
 ## Who can make releases?
 
@@ -31,7 +31,7 @@ Before publishing, the following preconditions should be met:
   below) will exist documenting:
   - the proposed changes
   - the type of release: patch, minor or major
-  - the version number (according to semantic versioning - https://semver.org)
+  - the version number (according to semantic versioning - <https://semver.org>)
 - The proposed changes should be complete.
 
 There are two main release flows: patch and non-patch.
@@ -121,13 +121,14 @@ is ready when all proposed code, tests and documentation updates are complete
 In the patch flow: skip this step.
 
 In the non-patch flow:
+
 ```sh
-$ git checkout <release-branch>
-$ git merge --ff-only <proposal-branch>
+git checkout <release-branch>
+git merge --ff-only <proposal-branch>
 ```
 
-<release-branch> - see "Release branch" of "Branches" above.
-<proposal-branch> - see "Proposal branch" of "Non-patch flow" above.
+`<release-branch>` - see "Release branch" of "Branches" above.
+`<proposal-branch>` - see "Proposal branch" of "Non-patch flow" above.
 
 > [!NOTE]
 > You may need to rebase the proposal branch to allow a fast-forward
@@ -167,17 +168,17 @@ Create a lightweight tag (rather than an annotated tag) named after the new
 release version (eg: `4.13.3`).
 
 ```sh
-$ git tag <version-number>
+git tag <version-number>
 ```
 
 ### Step 5. Push the release branch changes and tag to github
 
 The branch and tag should be pushed directly to the main repository
-(https://github.com/expressjs/express).
+(<https://github.com/expressjs/express>).
 
 ```sh
-$ git push origin <release-branch>
-$ git push origin <version-number>
+git push origin <release-branch>
+git push origin <version-number>
 ```
 
 ### Step 6. Publish to npmjs.com
@@ -186,17 +187,17 @@ Ensure your local working copy is completely clean (no extra or changed files).
 You can use `git status` for this purpose.
 
 ```sh
-$ npm login <npm-username>
-$ npm publish
+npm login <npm-username>
+npm publish
 ```
 
 > [!NOTE]
-> The version number to publish will be picked up automatically from 
+> The version number to publish will be picked up automatically from
 > package.json.
-          
+
 ### Step 7. Update documentation website
 
-The documentation website https://expressjs.com/ documents the current release version in various places. To update these, follow these steps:
+The documentation website <https://expressjs.com/> documents the current release version in various places. To update these, follow these steps:
 
 1. Manually run the [`Update External Docs` workflow](https://github.com/expressjs/expressjs.com/actions/workflows/update-external-docs.yml) in expressjs.com repository.
 2. Add a new section to the [changelog](https://github.com/expressjs/expressjs.com/blob/gh-pages/en/changelog/index.md) in the expressjs.com website.

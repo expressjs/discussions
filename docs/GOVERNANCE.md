@@ -135,16 +135,17 @@ project for at least 6 months as a committer prior to the request. They should h
 helped with code contributions as well as triaging issues. They are also required to
 have 2FA enabled on both their GitHub and npm accounts.
 
-Any TC member or an existing captain on the **same** repo can nominate another committer 
-to the captain role. To do so, they should submit a PR to this document, updating the 
-**Active Project Captains** section (while maintaining the sort order) with the project 
+Any TC member or an existing captain on the **same** repo can nominate another committer
+to the captain role. To do so, they should submit a PR to this document, updating the
+**Active Project Captains** section (while maintaining the sort order) with the project
 name, the nominee's GitHub handle, and their npm username (if different).
-- Repos can have as many captains as make sense for the scope of work.
-- A TC member or an existing repo captain **on the same project** can nominate a new captain. 
+
+* Repos can have as many captains as make sense for the scope of work.
+* A TC member or an existing repo captain **on the same project** can nominate a new captain.
   Repo captains from other projects should not nominate captains for a different project.
 
-The PR will require at least 2 approvals from TC members and 2 weeks hold time to allow 
-for comment and/or dissent.  When the PR is merged, a TC member will add them to the 
+The PR will require at least 2 approvals from TC members and 2 weeks hold time to allow
+for comment and/or dissent.  When the PR is merged, a TC member will add them to the
 proper GitHub/npm groups.
 
 ### Active Projects and Captains
