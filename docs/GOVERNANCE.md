@@ -173,7 +173,7 @@ Anyone may request a temporary leave from active participation due to personal o
 
 ### Accountability
 
-* The Technical Committee (TC) and the respective captains of each package/team are responsible for monitoring activity levels and enforcing this policy fairly and transparently, in coordination with other relevant teams.
+* The Technical Committee (TC) and the respective captains of each package/team are responsible for assessing activity levels and enacting this policy fairly and transparently, in coordination with other relevant teams.
 * In case of disagreement, the situation can be discussed and resolved by consensus within the TC or appropriate team.
 
 ## Developer's Certificate of Origin 1.1
