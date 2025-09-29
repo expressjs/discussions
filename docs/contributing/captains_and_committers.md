@@ -83,6 +83,12 @@
 - [`pillarjs/send`](https://github.com/pillarjs/send): @blakeembrey
 - [`pillarjs/understanding-csrf`](https://github.com/pillarjs/understanding-csrf): @ulisesGascon
 
+## Current Initiative Captains
+
+- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
+- [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
+- [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
+
 ## Accounts details
 
 - @ashtuchkin (npm: [~ashtuchkin](https://www.npmjs.com/~ashtuchkin))
@@ -96,9 +102,3 @@
 - @seplu (npm: [~sheplu](https://www.npmjs.com/~sheplu))
 - @ulisesGascon (npm: [~ulisesgascon](https://www.npmjs.com/~ulisesgascon))
 - @wesleytodd (npm: [~wesleytodd](https://www.npmjs.com/~wesleytodd))
-
-## Current Initiative Captains
-
-- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
-- [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
-- [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
