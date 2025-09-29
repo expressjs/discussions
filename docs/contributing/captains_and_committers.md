@@ -83,7 +83,8 @@
 - [`pillarjs/send`](https://github.com/pillarjs/send): @blakeembrey
 - [`pillarjs/understanding-csrf`](https://github.com/pillarjs/understanding-csrf): @ulisesGascon
 
-**Accounts details**
+## Accounts details
+
 - @ashtuchkin (npm: [~ashtuchkin](https://www.npmjs.com/~ashtuchkin))
 - @bjohansebas (npm: [~bsebas](https://www.npmjs.com/~bsebas))
 - @blakeembrey (npm: [~blakeembrey](https://www.npmjs.com/~blakeembrey))
