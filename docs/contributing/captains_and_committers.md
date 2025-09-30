@@ -5,7 +5,7 @@
 - [`expressjs/body-parser`](https://github.com/expressjs/body-parser):
   - Captains: @jonchurch, @ulisesGascon
   - Committers: @Phillip9587
-- [`expressjs/codemod`](https://github.com/expressjs/codemod): @bjohansebas (npm: `@bsebas`), @kjugi (npm: `@filip.kudla`)
+- [`expressjs/codemod`](https://github.com/expressjs/codemod): @bjohansebas, @kjugi
 - [`expressjs/compression`](https://github.com/expressjs/compression):
   - captains: @UlisesGascon
   - committers: @bjohansebas
@@ -73,7 +73,7 @@
 - [`pillarjs/hbs`](https://github.com/pillarjs/hbs): @ulisesGascon
 - [`pillarjs/multiparty`](https://github.com/pillarjs/multiparty): @blakeembrey
 - [`pillarjs/iconv-lite`](https://github.com/pillarjs/iconv-lite):
-  - Captains: @ashtuchkin, @bjohansebas (npm: `@bsebas`)
+  - Captains: @ashtuchkin, @bjohansebas
   - Committers: @Phillip9587
 - [`pillarjs/parseurl`](https://github.com/pillarjs/parseurl): @blakeembrey
 - [`pillarjs/path-to-regexp`](https://github.com/pillarjs/path-to-regexp): @blakeembrey
@@ -88,3 +88,17 @@
 - [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
 - [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
 - [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
+
+## Accounts details
+
+- @ashtuchkin (npm: [~ashtuchkin](https://www.npmjs.com/~ashtuchkin))
+- @bjohansebas (npm: [~bsebas](https://www.npmjs.com/~bsebas))
+- @blakeembrey (npm: [~blakeembrey](https://www.npmjs.com/~blakeembrey))
+- @crandmck (npm: [~crandmck](https://www.npmjs.com/~crandmck))
+- @ctcpip (npm: [~ctcpip](https://www.npmjs.com/~ctcpip))
+- @jonchurch (npm: [~jonchurch](https://www.npmjs.com/~jonchurch))
+- @kjugi (npm: [~filip.kudla](https://www.npmjs.com/~filip.kudla))
+- @LinusU (npm: [~linusu](https://www.npmjs.com/~linusu))
+- @seplu (npm: [~sheplu](https://www.npmjs.com/~sheplu))
+- @ulisesGascon (npm: [~ulisesgascon](https://www.npmjs.com/~ulisesgascon))
+- @wesleytodd (npm: [~wesleytodd](https://www.npmjs.com/~wesleytodd))
