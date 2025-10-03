@@ -57,6 +57,16 @@ seeking process to evaluate whether or not to add this new member.
 Members who do not participate consistently at the level of a majority
 of the other members are expected to resign.
 
+TC memberships are not time-limited. The Technical Committee (TC) shall consist of no more than ten (10) members at any given time.
+
+To ensure balanced representation of diverse stakeholder interests, no more than one-third of TC members may be affiliated with the same company or entity.
+
+Affiliation refers to formal employment, contractual engagement, or governance roles that imply a company or entity may exert significant influence over a member’s decision-making within the TC.
+
+Participation in community recognition programs (such as Google Developer Experts or Microsoft MVPs), open source projects, or volunteer-driven events (e.g., conference organizing teams) does not in itself constitute affiliation for this purpose.
+
+If changes in TC membership or member affiliations result in a violation of the one-third rule, the situation must be promptly remedied by removing one or more members affiliated with the over-represented entity until compliance is restored.
+
 ## Section 4: Roles & Responsibilities
 
 The Express TC manages all aspects of both the technical and community
