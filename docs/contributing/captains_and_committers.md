@@ -85,6 +85,7 @@
 - [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
 - [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
 - [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
+- [Typescript WG](https://github.com/expressjs/typescript-wg): @jonchurch, @bjohansebas
 - Archived repos and deprecated packages: @UlisesGascon
 
 ## Accounts details
