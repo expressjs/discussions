@@ -82,7 +82,7 @@
 
 ## Current Initiative Captains
 
-- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
+- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon, @bjohansebas
 - [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
 - [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
 - Archived repos and deprecated packages: @UlisesGascon
