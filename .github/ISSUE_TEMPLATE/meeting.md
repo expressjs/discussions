@@ -1,25 +1,44 @@
-## Date/Time
-
-| Timezone | Date/Time |
-|----------|-----------|
-<%= [
+<% const timezones = [
   'America/Los_Angeles',
   'America/Denver',
   'America/Chicago',
+  'America/Bogota',
   'America/New_York',
+  'UTC',
   'Europe/London',
-  'Europe/Amsterdam',
+  'Europe/Madrid',
+  'Europe/Paris',
+  'Europe/Warsaw',
   'Europe/Moscow',
   'Asia/Kolkata',
   'Asia/Shanghai',
   'Asia/Tokyo',
   'Australia/Sydney'
-].map((zone) => {
-  return `| ${zone} | ${date.setZone(zone).toFormat('EEE dd-MMM-yyyy HH:mm (hh:mm a)')} |`
+]; %>
+
+## Date/Time
+
+| Timezone | Date/Time |
+|----------|-----------|
+<%= timezones.map((zone) => {
+  const zonedDate = date.toZonedDateTimeISO(zone)
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    weekday: 'short',
+    month: 'short',
+    day: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+    timeZone: zone
+  })
+  const formattedDate = formatter.format(new Date(zonedDate.epochMilliseconds))
+  return `| ${zone} | ${formattedDate} |`
 }).join('\n') %>
 
 Or in your local time:
-* https://www.timeanddate.com/worldclock/?iso=<%= date.toFormat("yyyy-MM-dd'T'HH:mm:ss") %>
+
+* https://www.timeanddate.com/worldclock/fixedtime.html?msg=<%= encodeURIComponent(title) %>&iso=<%= date.toZonedDateTimeISO('UTC').toPlainDateTime().toString().slice(0, 16).replace(/[-:]/g, '') %>&p1=1440&ah=1
 
 ## Agenda
 
@@ -31,17 +50,23 @@ Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<
 
 ## Invited
 
-This meeting is open for anyone who wants to attend. Reminder to follow our [Code of Conduct](https://github.com/expressjs/express/blob/master/Code-Of-Conduct.md).
+- @expressjs/express-tc
+- @expressjs/triagers
+- @expressjs/security-wg
 
-@expressjs/express-tc
-@expressjs/triagers
-@expressjs/security-wg
+### Observers/Guests
 
-## Links
+This meeting is open for anyone who wants to attend. Reminder to follow our [Code of Conduct](https://github.com/expressjs/.github/blob/master/CODE_OF_CONDUCT.md).
 
-* Minutes:
-
-### Joining the meeting
+## Joining the meeting
 
 * link for participants: <%= meetingLink %>
-* For those who just want to watch: https://www.youtube.com/@expressjs-official
+
+---
+
+Please use the following emoji reactions in this post to indicate your
+availability.
+
+- 👍 - Attending
+- 👎 - Not attending
+- 😕 - Not sure yet

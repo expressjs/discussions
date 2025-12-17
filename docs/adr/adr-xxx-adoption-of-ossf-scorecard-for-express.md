@@ -33,7 +33,7 @@ The Express project will adopt OSSF Scorecard reporting as part of its security 
 
 ### Exclusions
 
-- Some suggestions made by the Scorecard may not be implemented in the organization for various reasons. For example, we decided that [pinning dependencies is considered optional](https://github.com/expressjs/discussions/blob/master/docs/adr/action-pinning.md). It is important to reach consensus before making bulk changes across repositories.
+- Some suggestions made by the Scorecard may not be implemented in the organization for various reasons. For example, we decided that [pinning dependencies is considered optional](https://github.com/expressjs/discussions/blob/master/docs/adr/366-action-pinning.md). It is important to reach consensus before making bulk changes across repositories.
 
 ## Rationale
 

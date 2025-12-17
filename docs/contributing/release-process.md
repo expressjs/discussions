@@ -2,25 +2,25 @@
 
 This document contains the technical aspects of the Express release process. The
 intended audience is those who have been authorized by the Express Technical
-Committee (TC) to create, promote and sign official release builds for Express,
-as npm packages hosted on <https://npmjs.com/package/express>.
+Committee (TC) to create, promote and sign official release builds for any
+package governed by Express.
 
 ## Who can make releases?
 
-Release authorization is given by the Express TC. Once authorized, an individual
-must have the following access permissions:
+According to project governance, only package Captains or members of the Technical
+Committee (TC) are permitted to make releases. Captains have the freedom to make releases
+for their own package whenever necessary, while TC members may make releases for any package
+as needed.
 
 ### 1. Github release access
 
-The individual making the release will need to be a member of the
-expressjs/express team with Write permission level so they are able to tag the
-release commit and push changes to the expressjs/express repository
-(see Steps 4 and 5).
+The person making the release must be either the package captain or a member of the TC in
+order to have sufficient permissions to do the work.
 
 ### 2. npmjs.com release access
 
 The individual making the release will need to be made an owner on the
-`express` package on npmjs.com so they are able to publish the release
+package on npmjs.com so they are able to publish the release
 (see Step 6).
 
 ## How to publish a release
