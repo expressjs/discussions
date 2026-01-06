@@ -52,7 +52,7 @@ Section Intentionally Left Blank
 
 The Express project is managed by the Technical Committee ("TC").
 Members can be added to the TC at any time. Any committer can nominate
-another committer to the TC and the TC uses its standard consensus
+another committer to the TC, by privately contacting one or more TC members, and the TC uses its standard consensus
 seeking process to evaluate whether or not to add this new member.
 Members who do not participate consistently at the level of a majority
 of the other members are expected to resign.
