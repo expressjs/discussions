@@ -1,12 +1,7 @@
-# Express.js Community Contributing Guide 1.0
+# Express.js Governance
 
-The goal of this document is to create a contribution process that:
-
-* Encourages new contributions.
-* Encourages contributors to remain involved.
-* Avoids unnecessary processes and bureaucracy whenever possible.
-* Creates a transparent decision making process that makes it clear how
-contributors can be involved in decision making.
+The goal of this document is to provide a clear and transparent governance model for the Express.js
+project. Included are guidelines for contributions, roles, responsibilities, and decision-making processes.
 
 ## Vocabulary
 
@@ -17,21 +12,9 @@ contributors can be involved in decision making.
 expertise to resolve rare disputes.
 * A **Triager** is a subset of contributors who have been given triage access to the repository.
 
-## Logging Issues
-
-Log an issue for any question or problem you might have. When in doubt, log an issue, and
-any additional policies about what to include will be provided in the responses. The only
-exception is security disclosures which should be sent privately.
-
-Committers may direct you to another repository, ask for additional clarifications, and
-add appropriate metadata before the issue is addressed.
-
-Please be courteous and respectful. Every participant is expected to follow the
-project's Code of Conduct.
-
 ## Contributions
 
-Any change to resources in this repository must be through pull requests. This applies to all changes
+Any change to resources in any repository must be through pull requests. This applies to all changes
 to documentation, code, binary files, etc. Even long term committers and TC members must use
 pull requests.
 
@@ -61,7 +44,7 @@ compromise among committers be the default resolution mechanism.
 ## Becoming a Triager
 
 Anyone can become a triager! Read more about the process of being a triager in
-[the triage process document](Triager-Guide.md).
+[the triage process document](https://github.com/expressjs/discussions/blob/master/docs/contributing/triager-guide.md).
 
 Currently, any existing [organization member](https://github.com/orgs/expressjs/people) can nominate
 a new triager. If you are interested in becoming a triager, our best advice is to actively participate
@@ -175,31 +158,3 @@ Anyone may request a temporary leave from active participation due to personal o
 
 * The Technical Committee (TC) and the respective captains of each package/team are responsible for assessing activity levels and enacting this policy fairly and transparently, in coordination with other relevant teams.
 * In case of disagreement, the situation can be discussed and resolved by consensus within the TC or appropriate team.
-
-## Developer's Certificate of Origin 1.1
-
-```text
-By making a contribution to this project, I certify that:
-
- (a) The contribution was created in whole or in part by me and I
-     have the right to submit it under the open source license
-     indicated in the file; or
-
- (b) The contribution is based upon previous work that, to the best
-     of my knowledge, is covered under an appropriate open source
-     license and I have the right under that license to submit that
-     work with modifications, whether created in whole or in part
-     by me, under the same open source license (unless I am
-     permitted to submit under a different license), as indicated
-     in the file; or
-
- (c) The contribution was provided directly to me by some other
-     person who certified (a), (b) or (c) and I have not modified
-     it.
-
- (d) I understand and agree that this project and the contribution
-     are public and that a record of the contribution (including all
-     personal information I submit with it, including my sign-off) is
-     maintained indefinitely and may be redistributed consistent with
-     this project or the open source license(s) involved.
-```
