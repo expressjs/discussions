@@ -19,7 +19,7 @@
   - committers: @bjohansebas, @Phillip9587
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
   - captains: @crandmck, @jonchurch, @bjohansebas
-  - committers: @ShubhamOulkar
+  - committers: @carlosstenzel @ShubhamOulkar
 - [`expressjs/generator`](https://github.com/expressjs/generator): @wesleytodd
 - [`expressjs/method-override`](https://github.com/expressjs/method-override): @ulisesGascon
 - [`expressjs/morgan`](https://github.com/expressjs/morgan): @jonchurch, @ulisesGascon
