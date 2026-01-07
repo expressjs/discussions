@@ -106,4 +106,4 @@
 
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
   - triage: @juliogarciape @inigomarquinez
-  - committers: @carlosstenzel, @chrisdel101
+  - committers: @chrisdel101
