@@ -5,7 +5,9 @@
 - [`expressjs/body-parser`](https://github.com/expressjs/body-parser):
   - Captains: @jonchurch, @ulisesGascon
   - Committers: @Phillip9587
-- [`expressjs/codemod`](https://github.com/expressjs/codemod): @bjohansebas, @kjugi
+- [`expressjs/codemod`](https://github.com/expressjs/codemod):
+  - captains: @bjohansebas, @kjugi
+  - committers: @AugustinMauroy
 - [`expressjs/compression`](https://github.com/expressjs/compression):
   - captains: @UlisesGascon
   - committers: @bjohansebas
