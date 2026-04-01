@@ -73,7 +73,7 @@ Adopting ESM for our libraries would require a significant investment of time an
 Support for commonjs imports in ESM code is available in the node. Described in docs:
 - https://nodejs.org/api/esm.html#interoperability-with-commonjs
 
-Support for ESM modules imports in commonjs is available since node v20 behind the experimental flag and node v23 without a flag. Docs:
+Support for ESM modules imports in commonjs is available in recent LTS Node.js versions. Docs:
 - https://nodejs.org/api/modules.html#loading-ecmascript-modules-using-require
 
 ## Changelog
