@@ -21,7 +21,7 @@
   - committers: @bjohansebas, @Phillip9587
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
   - captains: @crandmck, @jonchurch, @bjohansebas
-  - committers: @carlosstenzel, @chrisdel101, @ShubhamOulkar
+  - committers: @carlosstenzel @ShubhamOulkar
 - [`expressjs/generator`](https://github.com/expressjs/generator): @wesleytodd
 - [`expressjs/method-override`](https://github.com/expressjs/method-override): @ulisesGascon
 - [`expressjs/morgan`](https://github.com/expressjs/morgan): @jonchurch, @ulisesGascon
@@ -103,3 +103,9 @@
 - @seplu (npm: [~sheplu](https://www.npmjs.com/~sheplu))
 - @ulisesGascon (npm: [~ulisesgascon](https://www.npmjs.com/~ulisesgascon))
 - @wesleytodd (npm: [~wesleytodd](https://www.npmjs.com/~wesleytodd))
+
+## Emeritus Members
+
+- [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
+  - triage: @juliogarciape @inigomarquinez
+  - committers: @chrisdel101
