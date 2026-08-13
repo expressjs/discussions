@@ -84,10 +84,10 @@
 
 ## Current Initiative Captains
 
-- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon, @bjohansebas
+- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
 - [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
 - [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
-- [Typescript WG](https://github.com/expressjs/typescript-wg): @jonchurch, @bjohansebas
+- [Typescript WG](https://github.com/expressjs/typescript-wg): @jonchurch
 - Archived repos and deprecated packages: @UlisesGascon
 
 ## Accounts details
@@ -109,3 +109,5 @@
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
   - triage: @juliogarciape @inigomarquinez
   - committers: @chrisdel101
+- [Triage team](https://github.com/expressjs/discussions/issues/227): @bjohansebas
+- [Typescript WG](https://github.com/expressjs/typescript-wg): @bjohansebas
