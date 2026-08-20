@@ -12,6 +12,7 @@ contributors can be involved in decision making.
 
 * A **Contributor** is any individual creating or commenting on an issue or pull request.
 * A **Committer** is a subset of contributors who have been given write access to the repository.
+* A **Collaborator** is a subset of committers who have been given write access to all repositories in the organization.
 * A **Project Captain** is the lead maintainer of a repository.
 * A **TC (Technical Committee)** is a group of committers representing the required technical
 expertise to resolve rare disputes.
@@ -80,6 +81,19 @@ and added as a committer, and be given write access to the repository.
 
 Committers are expected to follow this policy and continue to send pull requests, go through
 proper review, and have other committers merge their pull requests.
+
+## Becoming a Collaborator
+
+Collaborators are committers who have been given write access to all repositories in the
+organization. This status recognizes long-term contributors who have demonstrated sustained
+and valuable participation across the project. Collaborators work alongside project captains
+to help maintain and advance the project. Like committers, collaborators are expected to
+follow the same contribution policies, including sending pull requests, going through
+proper review, and having other committers merge their pull requests.
+
+Any TC member can nominate a committer to become a collaborator. The nomination will be
+subject to a 2-week hold time to allow for comment and/or dissent. If no objections are
+raised during this period, the nominee will be granted collaborator status.
 
 ## TC Process
 
