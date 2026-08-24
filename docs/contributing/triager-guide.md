@@ -1,5 +1,13 @@
 # Express Triager Guide
 
+- [Express Triager Guide](#express-triager-guide)
+  - [Issue Triage Process](#issue-triage-process)
+    - [Moving Discussions and Questions to GitHub Discussions](#moving-discussions-and-questions-to-github-discussions)
+  - [Approaches and Best Practices for getting into triage contributions](#approaches-and-best-practices-for-getting-into-triage-contributions)
+  - [Removal of Triage Role](#removal-of-triage-role)
+  - [Other Helpful Hints](#other-helpful-hints)
+  - [General labels](#general-labels)
+
 ## Issue Triage Process
 
 When a new issue or pull request is opened the issue will be labeled with `needs triage`.
@@ -7,10 +15,10 @@ If a triage team member is available they can help make sure all the required in
 is provided. Depending on the issue or PR there are several next labels they can add for further
 classification:
 
-* `needs triage`: This can be kept if the triager is unsure which next steps to take
-* `awaiting more info`: If more info has been requested from the author, apply this label.
-* `bug`: Issues that present a reasonable conviction there is a reproducible bug.
-* `enhancement`: Issues that are found to be a reasonable candidate feature additions.
+- `needs triage`: This can be kept if the triager is unsure which next steps to take
+- `awaiting more info`: If more info has been requested from the author, apply this label.
+- `bug`: Issues that present a reasonable conviction there is a reproducible bug.
+- `enhancement`: Issues that are found to be a reasonable candidate feature additions.
 
 If the issue is a question or discussion, it should be moved to GitHub Discussions.
 
@@ -18,8 +26,8 @@ If the issue is a question or discussion, it should be moved to GitHub Discussio
 
 For issues labeled with `question` or `discuss`, it is recommended to move them to GitHub Discussions instead:
 
-* **Questions**: User questions that do not appear to be bugs or enhancements should be moved to GitHub Discussions.
-* **Discussions**: Topics for discussion should be moved to GitHub Discussions. If the discussion leads to a new feature or bug identification, it can be moved back to Issues.
+- **Questions**: User questions that do not appear to be bugs or enhancements should be moved to GitHub Discussions.
+- **Discussions**: Topics for discussion should be moved to GitHub Discussions. If the discussion leads to a new feature or bug identification, it can be moved back to Issues.
 
 In all cases, issues may be closed by maintainers if they don't receive a timely response when
 further information is sought, or when additional questions are asked.
@@ -47,26 +55,61 @@ ask questions if required. No question is a bad question!
 
 There are a few cases where members can be removed as triagers:
 
-* Breaking the CoC or project contributor guidelines
-* Abuse or misuse of the role as deemed by the TC
-* Lack of participation for more than 6 months
+- Breaking the CoC or project contributor guidelines
+- Abuse or misuse of the role as deemed by the TC
+- Lack of participation for more than 6 months
 
 If any of these happen we will discuss as a part of the triage portion of the regular TC meetings.
 If you have questions feel free to reach out to any of the TC members.
 
 ## Other Helpful Hints
 
-* Everyone is welcome to attend the [Express Technical Committee Meetings](https://github.com/expressjs/discussions#expressjs-tc-meetings), and as a triager, it might help to get a better idea of what's happening with the project.
-* When exploring the module's functionality there are a few helpful steps:
-  * Turn on `DEBUG=*` (see <https://www.npmjs.com/package/debug>) to get detailed log information
-  * It is also a good idea to do live debugging to follow the control flow, try using `node --inspect`
-  * It is a good idea to make at least one pass of reading through the entire source
-* When reviewing the list of open issues there are some common types and suggested actions:
-  * New/unattended issues or simple questions: A good place to start
-  * Hard bugs & ongoing discussions: always feel free to chime in and help
-  * Issues that imply gaps in the documentation: open PRs with changes or help the user to do so
-* For recurring issues, it is helpful to create functional examples to demonstrate (publish as gists or a repo)
-* Review and identify the maintainers. If necessary, at-mention one or more of them if you are unsure what to do
-* Make sure all your interactions are professional, welcoming, and respectful to the parties involved.
-* When an issue refers to security concerns, responsibility is delegated to the repository captain or the security group in any public communication.
-  * If an issue has been open for a long time, the person in charge should be contacted internally through the private Slack chat.
+- Everyone is welcome to attend the [Express Technical Committee Meetings](https://github.com/expressjs/discussions#expressjs-tc-meetings), and as a triager, it might help to get a better idea of what's happening with the project.
+- When exploring the module's functionality there are a few helpful steps:
+  - Turn on `DEBUG=*` (see <https://www.npmjs.com/package/debug>) to get detailed log information
+  - It is also a good idea to do live debugging to follow the control flow, try using `node --inspect`
+  - It is a good idea to make at least one pass of reading through the entire source
+- When reviewing the list of open issues there are some common types and suggested actions:
+  - New/unattended issues or simple questions: A good place to start
+  - Hard bugs & ongoing discussions: always feel free to chime in and help
+  - Issues that imply gaps in the documentation: open PRs with changes or help the user to do so
+- For recurring issues, it is helpful to create functional examples to demonstrate (publish as gists or a repo)
+- Review and identify the maintainers. If necessary, at-mention one or more of them if you are unsure what to do
+- Make sure all your interactions are professional, welcoming, and respectful to the parties involved.
+- When an issue refers to security concerns, responsibility is delegated to the repository captain or the security group in any public communication.
+  - If an issue has been open for a long time, the person in charge should be contacted internally through the private Slack chat.
+
+## General labels
+
+Express has the following labels available to tag each issue and PR that has been opened
+
+| Name                 | Description                                                                         |
+| -------------------- | ----------------------------------------------------------------------------------- |
+| `bug`                | Denotes confirmed bugs.                                                             |
+| `duplicate`          | A duplicate issue.                                                                  |
+| `enhancement`        | An issue requesting an enhancement.                                                 |
+| `help wanted`        | Help from the community is requested to assist in resolving this issue.             |
+| `invalid`            | This is not a proper issue report, request, or question.                            |
+| `question`           | For issues where the issuer is asking something.                                    |
+| `wontfix`            | Marks an issue that will not be fixed.                                              |
+| `docs`               | This issue pertains to the documentation or code comments.                          |
+| `investigate`        | Requires further investigation.                                                     |
+| `tests`              | This issue pertains to the tests themselves.                                        |
+| `deprecate`          | Issue is about a feature that is pending future removal.                            |
+| `release`            | A tracking issue for a specific release milestone.                                  |
+| `discuss`            | This issue should remain open to discussion for a while.                            |
+| `needs tests`        | This pull request needs tests to be added.                                          |
+| `needs docs`         | This pull request needs documentation to be added.                                  |
+| `needs rebase`       | This pull request needs rebase to be added.                                         |
+| `deps`               | Marks a dependancy-related issue or pull request.                                   |
+| `tc agenda`          | Issues that will be discussed in the TC meetings.                                   |
+| `working session`    | Issues that will be discussed in the working sessions.                              |
+| `fast track`         | PRs that are quick changes, like fixing a spelling mistake.                         |
+| `meta`               | Issues and PRs related to the general management of the project.                    |
+| `semver-major`       | PRs that have a breaking change.                                                    |
+| `semver-minor`       | PRs that add a new feature and do not break compatibility.                          |
+| `semver-patch`       | PRs that fix a bug in the code without breaking compatibility.                      |
+| `feedback`           | PRs that require feedback from the community.                                       |
+| `require-triage`     | Issues and PRs that have been opened but have not been reviewed for the first time. |
+| `awaiting more info` | Issues that require more information for better understanding.                      |
+| `good first issue`   | Issues suitable for newcomers to fix                                                |
