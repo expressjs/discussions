@@ -78,7 +78,9 @@
 - [`pillarjs/path-to-regexp`](https://github.com/pillarjs/path-to-regexp): @blakeembrey
 - [`pillarjs/request`](https://github.com/pillarjs/request): @wesleytodd
 - [`pillarjs/resolve-path`](https://github.com/pillarjs/resolve-path): @blakeembrey
-- [`pillarjs/router`](https://github.com/pillarjs/router): @wesleytodd, @ulisesGascon
+- [`pillarjs/router`](https://github.com/pillarjs/router):
+  - Captains: @wesleytodd, @ulisesGascon
+  - Comitters: @bjohansebas, @logaretm
 - [`pillarjs/send`](https://github.com/pillarjs/send): @blakeembrey
 - [`pillarjs/understanding-csrf`](https://github.com/pillarjs/understanding-csrf): @ulisesGascon
 
