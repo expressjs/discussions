@@ -76,7 +76,10 @@ if you have questions or need guidance.
 ## Becoming a Committer
 
 All contributors who have landed significant and valuable contributions should be onboarded in a timely manner,
-and added as a committer, and be given write access to the repository.
+and added as a committer, and be given write access to the repository. Contributors with a long track record
+of sustained involvement across the Express project may also be nominated as committers for a repository
+even if they have not been active specifically in that package, provided they have the relevant technical
+expertise. The nomination must come from a TC member or an existing captain of the same repository.
 
 Committers are expected to follow this policy and continue to send pull requests, go through
 proper review, and have other committers merge their pull requests.
@@ -143,6 +146,10 @@ name, the nominee's GitHub handle, and their npm username (if different).
 * Repos can have as many captains as make sense for the scope of work.
 * A TC member or an existing repo captain **on the same project** can nominate a new captain.
   Repo captains from other projects should not nominate captains for a different project.
+* Contributors with a long track record of sustained involvement across the Express project
+  may be nominated as captains for a repository even if they have not been active
+  specifically in that package, provided they have the relevant technical expertise.
+  The nomination must come from a TC member or an existing captain of the same repository.
 
 The PR will require at least 2 approvals from TC members and 2 weeks hold time to allow
 for comment and/or dissent.  When the PR is merged, a TC member will add them to the
