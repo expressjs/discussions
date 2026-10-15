@@ -69,7 +69,9 @@
 - [`pillarjs/finalhandler`](https://github.com/pillarjs/finalhandler):
   - captains: @wesleytodd, @ulisesGascon
   - committers: @Phillip9587
-- [`pillarjs/hbs`](https://github.com/pillarjs/hbs): @ulisesGascon
+- [`pillarjs/hbs`](https://github.com/pillarjs/hbs):
+  - captains: @ulisesGascon
+  - committers: @mfdebian
 - [`pillarjs/multiparty`](https://github.com/pillarjs/multiparty): @blakeembrey
 - [`pillarjs/iconv-lite`](https://github.com/pillarjs/iconv-lite):
   - Captains: @ashtuchkin, @bjohansebas
