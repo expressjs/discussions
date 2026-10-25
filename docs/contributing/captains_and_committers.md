@@ -5,7 +5,9 @@
 - [`expressjs/body-parser`](https://github.com/expressjs/body-parser):
   - Captains: @jonchurch, @ulisesGascon
   - Committers: @Phillip9587
-- [`expressjs/codemod`](https://github.com/expressjs/codemod): @bjohansebas, @kjugi
+- [`expressjs/codemod`](https://github.com/expressjs/codemod):
+  - captains: @bjohansebas, @kjugi
+  - committers: @AugustinMauroy
 - [`expressjs/compression`](https://github.com/expressjs/compression):
   - captains: @UlisesGascon
   - committers: @bjohansebas
@@ -19,7 +21,7 @@
   - committers: @bjohansebas, @Phillip9587
 - [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
   - captains: @crandmck, @jonchurch, @bjohansebas
-  - committers: @carlosstenzel, @chrisdel101, @ShubhamOulkar
+  - committers: @carlosstenzel @ShubhamOulkar
 - [`expressjs/generator`](https://github.com/expressjs/generator): @wesleytodd
 - [`expressjs/method-override`](https://github.com/expressjs/method-override): @ulisesGascon
 - [`expressjs/morgan`](https://github.com/expressjs/morgan): @jonchurch, @ulisesGascon
@@ -67,7 +69,9 @@
 - [`pillarjs/finalhandler`](https://github.com/pillarjs/finalhandler):
   - captains: @wesleytodd, @ulisesGascon
   - committers: @Phillip9587
-- [`pillarjs/hbs`](https://github.com/pillarjs/hbs): @ulisesGascon
+- [`pillarjs/hbs`](https://github.com/pillarjs/hbs):
+  - captains: @ulisesGascon
+  - committers: @mfdebian
 - [`pillarjs/multiparty`](https://github.com/pillarjs/multiparty): @blakeembrey
 - [`pillarjs/iconv-lite`](https://github.com/pillarjs/iconv-lite):
   - Captains: @ashtuchkin, @bjohansebas
@@ -76,16 +80,18 @@
 - [`pillarjs/path-to-regexp`](https://github.com/pillarjs/path-to-regexp): @blakeembrey
 - [`pillarjs/request`](https://github.com/pillarjs/request): @wesleytodd
 - [`pillarjs/resolve-path`](https://github.com/pillarjs/resolve-path): @blakeembrey
-- [`pillarjs/router`](https://github.com/pillarjs/router): @wesleytodd, @ulisesGascon
+- [`pillarjs/router`](https://github.com/pillarjs/router):
+  - Captains: @wesleytodd, @ulisesGascon
+  - Comitters: @bjohansebas, @logaretm
 - [`pillarjs/send`](https://github.com/pillarjs/send): @blakeembrey
 - [`pillarjs/understanding-csrf`](https://github.com/pillarjs/understanding-csrf): @ulisesGascon
 
 ## Current Initiative Captains
 
-- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon, @bjohansebas
+- [Triage team](https://github.com/expressjs/discussions/issues/227): @UlisesGascon
 - [Security WG](https://github.com/expressjs/security-wg): @UlisesGascon
 - [Perf WG](https://github.com/expressjs/perf-wg): @wesleytodd
-- [Typescript WG](https://github.com/expressjs/typescript-wg): @jonchurch, @bjohansebas
+- [Typescript WG](https://github.com/expressjs/typescript-wg): @jonchurch
 - Archived repos and deprecated packages: @UlisesGascon
 
 ## Accounts details
@@ -101,3 +107,11 @@
 - @seplu (npm: [~sheplu](https://www.npmjs.com/~sheplu))
 - @ulisesGascon (npm: [~ulisesgascon](https://www.npmjs.com/~ulisesgascon))
 - @wesleytodd (npm: [~wesleytodd](https://www.npmjs.com/~wesleytodd))
+
+## Emeritus Members
+
+- [`expressjs/expressjs.com`](https://github.com/expressjs/expressjs.com):
+  - triage: @juliogarciape @inigomarquinez
+  - committers: @chrisdel101
+- [Triage team](https://github.com/expressjs/discussions/issues/227): @bjohansebas
+- [Typescript WG](https://github.com/expressjs/typescript-wg): @bjohansebas
