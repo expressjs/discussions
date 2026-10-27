@@ -56,7 +56,7 @@
 - [`jshttp/negotiator`](https://github.com/jshttp/negotiator): @blakeembrey
 - [`jshttp/on-finished`](https://github.com/jshttp/on-finished):
   - Captains: @wesleytodd, @ulisesGascon
-  - Committers: @Phillip9587
+  - Committers: @Phillip9587, @bjohansebas
 - [`jshttp/on-headers`](https://github.com/jshttp/on-headers): @blakeembrey
 - [`jshttp/proxy-addr`](https://github.com/jshttp/proxy-addr): @wesleytodd, @ulisesGascon
 - [`jshttp/range-parser`](https://github.com/jshttp/range-parser): @blakeembrey
