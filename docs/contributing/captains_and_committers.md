@@ -68,7 +68,7 @@
 - [`pillarjs/encodeurl`](https://github.com/pillarjs/encodeurl): @blakeembrey
 - [`pillarjs/finalhandler`](https://github.com/pillarjs/finalhandler):
   - captains: @wesleytodd, @ulisesGascon
-  - committers: @Phillip9587
+  - committers: @Phillip9587, @bjohansebas
 - [`pillarjs/hbs`](https://github.com/pillarjs/hbs):
   - captains: @ulisesGascon
   - committers: @mfdebian
